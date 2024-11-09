@@ -69,8 +69,12 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-row justify-center mb-8 mt-[1px] mr-[50px] items-center gap-2 ">
-                    <div className="white shadow-2xl w-[280px] flex-1 h-[650px] border-[1px] border-black border-solid rounded-2xl"></div>
+                <div className="flex flex-row justify-center  mb-8 mt-[1px] mr-[50px] items-center gap-2 ">
+                    <div className="white shadow-2xl flex flex-col items-start justify-end w-[280px] flex-1  h-[650px] border-[1px] border-black border-solid rounded-2xl">
+                        <div className="rotate-[-90deg] w-[200px] h-[100px] text-[100px] text-white transform origin-left text-end mr-[100px] brand">
+                            <span>BRAND</span>
+                        </div>
+                    </div>
                     <div className="white shadow-2xl w-[280px] flex-1 h-[650px] border-[1px] border-black border-solid rounded-2xl"></div>
                     <div className="white shadow-2xl w-[280px] flex-1 h-[650px] border-[1px] border-black border-solid rounded-2xl"></div>
                 </div>

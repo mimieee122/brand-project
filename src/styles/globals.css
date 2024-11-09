@@ -61,3 +61,8 @@ body {
     font-weight: 600; /* extrabold */
     -webkit-text-stroke: 3px #544c4c;
 }
+
+.brand {
+    font-family: 'SF_HambakSnow';
+    -webkit-text-stroke: 1.3px #544c4c;
+}
