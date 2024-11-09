@@ -70,13 +70,32 @@ const Home = () => {
                 </div>
 
                 <div className="flex flex-row justify-center  mb-8 mt-[1px] mr-[50px] items-center gap-2 ">
-                    <div className="white shadow-2xl flex flex-col items-start justify-end w-[280px] flex-1  h-[650px] border-[1px] border-black border-solid rounded-2xl">
-                        <div className="rotate-[-90deg] w-[200px] h-[100px] text-[100px] text-white transform origin-left text-end mr-[100px] brand">
-                            <span>BRAND</span>
+                    <Link href={'/brand'}>
+                        <div className="white shadow-2xl flex flex-col items-center justify-end w-[280px] flex-1  h-[650px] border-[2px] border-black border-solid rounded-2xl">
+                            <div className="rotate-[-90deg] w-[200px] h-[100px] text-[100px] text-white transform origin-top-left text-end mb-[200px] ml-[180px]">
+                                <span>BRAND</span>
+                            </div>
                         </div>
-                    </div>
-                    <div className="white shadow-2xl w-[280px] flex-1 h-[650px] border-[1px] border-black border-solid rounded-2xl"></div>
-                    <div className="white shadow-2xl w-[280px] flex-1 h-[650px] border-[1px] border-black border-solid rounded-2xl"></div>
+                    </Link>
+                    <Link href={'/items'}>
+                        <div className="white shadow-2xl w-[280px] flex-1 flex-row justify-center h-[650px] border-[2px] border-black border-solid rounded-2xl">
+                            <div className=" relative flex mt-[225px] ml-[25px]  w-[230px] h-[450px] flex-col justify-center items-center ">
+                                <Image
+                                    src="/assets/images/items.png"
+                                    fill // 부모 요소에 가득 차게 함
+                                    alt="제품 사진"
+                                    className="object-fill "
+                                />
+                            </div>
+                        </div>
+                    </Link>
+                    <Link href={'/info'}>
+                        <div className="white shadow-2xl flex flex-col items-center justify-end w-[280px] flex-1  h-[650px] border-[2px] border-black border-solid rounded-2xl">
+                            <div className="rotate-[-90deg] w-[200px] h-[100px] text-[100px] text-white transform origin-top-left text-end mb-[200px] ml-[180px]">
+                                <span>INFO.</span>
+                            </div>
+                        </div>
+                    </Link>
                 </div>
             </div>
         </>
