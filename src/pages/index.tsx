@@ -25,9 +25,11 @@ const Home = () => {
     return (
         <>
             <nav className="flex flex-row justify-between  font-bold mt-[19px] ml-[15px] mr-[15px]">
-                <button className="text-[#544C4C] bar1 text-[35px]">
-                    MÁRMO
-                </button>
+                <Link href={'/'}>
+                    <button className="text-[#544C4C] bar1 text-[35px]">
+                        MÁRMO
+                    </button>
+                </Link>
                 <div className="flex flex-row text-[#949597] text-[30px] bar2 justify-center mt-[19px] gap-8">
                     <Link href={'/brand'}>
                         <button className="button">BRAND</button>
