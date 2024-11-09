@@ -5,11 +5,11 @@ import { motion } from 'framer-motion'
 
 const Brand = () => {
     const nameVariants = {
-        hidden: { opacity: 0, x: -100 },
+        hidden: { opacity: 0, y: -100 },
         visible: {
             opacity: 1,
-            x: 0,
-            transition: { duration: 1, delay: 0.5 },
+            y: 0,
+            transition: { duration: 2, delay: 0.5 },
         },
     }
     return (
@@ -48,12 +48,12 @@ const Brand = () => {
                         initial="hidden"
                         animate="visible"
                         variants={nameVariants}
-                        className="flex flex-col items-end mt-[110px] gap-[5px] mr-[15px]  text-left text-[90px]"
+                        className="flex flex-col items-end mt-[115px] gap-[5px] mr-[15px]  text-left text-[90px]"
                     >
                         <span className="name1  text-[#6b8e6d]  text-[30px]">
                             THE PROJECT :{' '}
                         </span>
-                        <div className="flex flex-col underline name2 leading-none gap-[0px] text-[#544C4C] ">
+                        <div className="flex flex-col name2 leading-none gap-[0px] text-[#544C4C] ">
                             <span className="p-0">MARMO</span>
                         </div>
                     </motion.div>
@@ -63,7 +63,7 @@ const Brand = () => {
                         MÁRMO는 커피의 예술성과 품격을 일상 속에서 누구나 쉽게
                         경험할 수 있도록 탄생한 브랜드입니다.
                     </span>
-                    <div className="flex flex-col items-center mt-[40px] mb-[40px] gap-[5px]">
+                    <div className="flex flex-col items-center text-[black] mt-[40px] mb-[40px] gap-[5px]">
                         <span>
                             대리석의 고귀한 이미지에서 영감을 받은 MÁRMO는,{' '}
                         </span>
@@ -76,14 +76,14 @@ const Brand = () => {
                             제공합니다.{' '}
                         </span>
                     </div>
-                    <span>
+                    <span className="text-[#9c753a]">
                         대리석처럼 영구적이며 변치 않는 가치를 담아, 당신의 일상
                         속 눈부신 순간을 선사하겠습니다.
                     </span>
                 </div>
                 <div className=" relative flex flex-col w-max-[1000px] mt-[50px] gap-0 items-start mr-[15px] ml-[15px] h-[20px]">
                     <Image
-                        src="/assets/images/gray.png"
+                        src="/assets/images/coffee.png"
                         fill // 부모 요소에 가득 차게 함
                         alt="회색 이미지"
                         className="object-fill"
