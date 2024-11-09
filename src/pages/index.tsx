@@ -81,12 +81,12 @@ const Home = () => {
                     </Link>
                     <Link href={'/items'}>
                         <div className="white shadow-2xl w-[280px] flex-1 flex-row justify-center h-[650px] border-[2px] border-black border-solid rounded-2xl">
-                            <div className=" relative flex mt-[225px] ml-[25px]  w-[230px] h-[450px] flex-col justify-center items-center ">
+                            <div className="group relative flex mt-[225px] ml-[25px]  w-[230px] h-[450px] flex-col justify-center items-center ">
                                 <Image
                                     src="/assets/images/items.png"
                                     fill // 부모 요소에 가득 차게 함
                                     alt="제품 사진"
-                                    className="object-fill "
+                                    className="object-fill group-hover:scale-105"
                                 />
                             </div>
                         </div>

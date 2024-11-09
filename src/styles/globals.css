@@ -65,6 +65,17 @@ body {
     -webkit-text-stroke: 1.5px #6b8e6d;
 }
 
+.click {
+    font-family: 'SF_HambakSnow';
+    font-weight: 1000;
+    -webkit-text-stroke: 3.5px #56bdb8;
+}
+
+.small {
+    font-family: 'SF_HambakSnow';
+    -webkit-text-stroke: 1px black;
+}
+
 .bar2 {
     font-family: 'Pretendard-Regular';
     -webkit-text-stroke: 1.5px #949597;
@@ -78,5 +89,5 @@ body {
 
 .brandExplain {
     font-family: 'SF_HambakSnow';
-    font-weight: 600;
+    font-weight: 900;
 }
