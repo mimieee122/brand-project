@@ -58,7 +58,7 @@ const Home = () => {
                             variants={nameVariants}
                             className="flex flex-col gap-[10px]  text-left text-[100px]"
                         >
-                            <span className="name1 text-[#544C4C]  text-[40px]">
+                            <span className="name1  text-[#544C4C]  text-[35px]">
                                 THE PROJECT :{' '}
                             </span>
                             <div className="flex flex-col name2 leading-none gap-[0px] text-[#544C4C] ">

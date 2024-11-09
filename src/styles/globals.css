@@ -24,6 +24,12 @@ html {
     background-size: cover;
 }
 
+.white:hover {
+    background-image: url('/assets/images/gray.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .white {
     background-image: url('/assets/images/height.png');
     background-repeat: no-repeat;
@@ -45,7 +51,7 @@ body {
 
 .name2 {
     font-family: 'SF_HambakSnow';
-    -webkit-text-stroke: 6px #544c4c;
+    -webkit-text-stroke: 4.5px #544c4c;
 }
 
 .button:hover {
@@ -61,5 +67,5 @@ body {
 .name1 {
     font-family: 'Pretendard-Regular';
     font-weight: 600; /* extrabold */
-    -webkit-text-stroke: 3px #544c4c;
+    -webkit-text-stroke: 2px #544c4c;
 }
