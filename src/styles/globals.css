@@ -43,7 +43,7 @@ body {
 
 .name2 {
     font-family: 'SF_HambakSnow';
-    -webkit-text-stroke: 15px #544c4c;
+    -webkit-text-stroke: 6px #544c4c;
 }
 
 .button:hover {
@@ -53,11 +53,11 @@ body {
 
 .bar2 {
     font-family: 'Pretendard-Regular';
-    -webkit-text-stroke: 3px #949597;
+    -webkit-text-stroke: 1.5px #949597;
 }
 
 .name1 {
     font-family: 'Pretendard-Regular';
     font-weight: 600; /* extrabold */
-    -webkit-text-stroke: 6px #544c4c;
+    -webkit-text-stroke: 3px #544c4c;
 }

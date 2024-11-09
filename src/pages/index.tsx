@@ -24,11 +24,11 @@ const Home = () => {
 
     return (
         <>
-            <nav className="flex flex-row justify-between  font-bold mt-[29px] ml-[50px] mr-[50px]">
-                <button className="text-[#544C4C] bar1 text-[100px]">
+            <nav className="flex flex-row justify-between  font-bold mt-[19px] ml-[15px] mr-[15px]">
+                <button className="text-[#544C4C] bar1 text-[35px]">
                     MÁRMO
                 </button>
-                <div className="flex flex-row mr-[50px] text-[#949597] text-[90px] bar2 justify-center mt-[40px] gap-40">
+                <div className="flex flex-row text-[#949597] text-[30px] bar2 justify-center mt-[19px] gap-8">
                     <Link href={'/brand'}>
                         <button className="button">BRAND</button>
                     </Link>
@@ -41,9 +41,9 @@ const Home = () => {
                 </div>
             </nav>
 
-            <div className="flex flex-row w-screen justify-between align-center">
-                <div className=" mt-10 ml-[50px] flex flex-col items-start justify-center ">
-                    <div className=" relative flex mb-[100px] flex-col gap-0 items-start w-[1600px] h-[900px]">
+            <div className="flex flex-row w-screen  justify-between gap-[50px] align-start">
+                <div className="  flex flex-col ml-[15px] items-start justify-start ">
+                    <div className=" relative flex mb-[20px] flex-col gap-0 items-start w-[500px] h-[350px]">
                         <Image
                             src="/assets/images/gray.png"
                             fill // 부모 요소에 가득 차게 함
@@ -56,9 +56,9 @@ const Home = () => {
                             initial="hidden"
                             animate="visible"
                             variants={nameVariants}
-                            className="flex flex-col gap-[50px]  text-left text-[320px]"
+                            className="flex flex-col gap-[10px]  text-left text-[100px]"
                         >
-                            <span className="name1 text-[#544C4C]  text-[120px]">
+                            <span className="name1 text-[#544C4C]  text-[40px]">
                                 THE PROJECT :{' '}
                             </span>
                             <div className="flex flex-col name2 leading-none gap-[0px] text-[#544C4C] ">
@@ -69,10 +69,10 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-row justify-center mb-8 mt-[40px] mr-[50px] items-center gap-10 ">
-                    <div className="white shadow-2xl w-[800px] flex-1 h-[1850px] border-[1px] border-black border-solid rounded-3xl"></div>
-                    <div className="white shadow-2xl w-[800px] flex-1 h-[1850px] border-[1px] border-black border-solid rounded-3xl"></div>
-                    <div className="white shadow-2xl w-[800px] flex-1 h-[1850px] border-[1px] border-black border-solid rounded-3xl"></div>
+                <div className="flex flex-row justify-center mb-8 mt-[1px] mr-[50px] items-center gap-2 ">
+                    <div className="white shadow-2xl w-[280px] flex-1 h-[650px] border-[1px] border-black border-solid rounded-2xl"></div>
+                    <div className="white shadow-2xl w-[280px] flex-1 h-[650px] border-[1px] border-black border-solid rounded-2xl"></div>
+                    <div className="white shadow-2xl w-[280px] flex-1 h-[650px] border-[1px] border-black border-solid rounded-2xl"></div>
                 </div>
             </div>
         </>
