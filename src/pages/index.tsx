@@ -9,7 +9,7 @@ const Home = () => {
         visible: {
             opacity: 1,
             x: 0,
-            transition: { duration: 1, delay: 1 },
+            transition: { duration: 0.5, delay: 1 },
         },
     }
 
@@ -26,7 +26,7 @@ const Home = () => {
         <>
             <nav className="flex flex-row justify-between  font-bold mt-[19px] ml-[15px] mr-[15px]">
                 <Link href={'/'}>
-                    <button className="text-[#544C4C] bar1 text-[35px]">
+                    <button className="text-[#544C4C] button bar1 text-[35px]">
                         MÁRMO
                     </button>
                 </Link>
@@ -47,7 +47,7 @@ const Home = () => {
                 <div className="  flex flex-col ml-[15px] items-start justify-start ">
                     <div className=" relative flex mb-[20px] flex-col gap-0 items-start w-[500px] h-[350px]">
                         <Image
-                            src="/assets/images/gray.png"
+                            src="/assets/images/coffee.png"
                             fill // 부모 요소에 가득 차게 함
                             alt="회색 이미지"
                             className="object-fill "

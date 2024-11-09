@@ -32,6 +32,7 @@ html {
 
 .white:hover * {
     color: #6b8e6d;
+    -webkit-text-stroke: 2px black;
 }
 
 .white {
@@ -59,8 +60,8 @@ body {
 }
 
 .button:hover {
-    color: black;
-    -webkit-text-stroke: 1.5px black;
+    color: #6b8e6d;
+    -webkit-text-stroke: 1.5px #6b8e6d;
 }
 
 .bar2 {
