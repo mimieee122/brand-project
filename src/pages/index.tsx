@@ -1,29 +1,9 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { motion } from 'framer-motion'
+import Link from 'next/link'
+import Image from 'next/image'
 
 const Home = () => {
-    useEffect(() => {
-        const script = document.createElement('script')
-        script.src = 'https://tenor.com/embed.js'
-        script.async = true
-        document.body.appendChild(script)
-    }, [])
-
-    const goAbout = () => {
-        window.location.href = '/about'
-    }
-
-    const goHome = () => {
-        window.location.href = '/'
-    }
-    const goProject = () => {
-        window.location.href = '/project'
-    }
-
-    const goArchive = () => {
-        window.location.href = '/archive'
-    }
-
     const nameVariants = {
         hidden: { opacity: 0, x: -100 },
         visible: {
@@ -33,121 +13,68 @@ const Home = () => {
         },
     }
 
-    const helloVariants = {
-        hidden: { opacity: 0, y: 100 },
-        visible: {
-            opacity: 1,
-            y: 0,
-            transition: { duration: 2, delay: 2 },
-        },
-    }
+    // const helloVariants = {
+    //     hidden: { opacity: 0, y: 100 },
+    //     visible: {
+    //         opacity: 1,
+    //         y: 0,
+    //         transition: { duration: 2, delay: 2 },
+    //     },
+    // }
 
     return (
         <>
-            <nav className="flex flex-row justify-between  font-bold mt-[29px]">
-                <button
-                    onClick={goHome}
-                    className="text-[#544C4C] bar1 text-[50px]"
-                >
+            <nav className="flex flex-row justify-between  font-bold mt-[29px] ml-[50px] mr-[50px]">
+                <button className="text-[#544C4C] bar1 text-[100px]">
                     MÁRMO
                 </button>
-                <div className="flex flex-row text-[#949597] text-[45px] bar2 justify-center mt-[40px] gap-20">
-                    <button onClick={goAbout} className="hover:text-white">
-                        BRAND
-                    </button>
-                    <button onClick={goProject} className="hover:text-white">
-                        ITEMS
-                    </button>
-                    <button onClick={goArchive} className="hover:text-white">
-                        INFO
-                    </button>
+                <div className="flex flex-row mr-[50px] text-[#949597] text-[90px] bar2 justify-center mt-[40px] gap-40">
+                    <Link href={'/brand'}>
+                        <button className="button">BRAND</button>
+                    </Link>
+                    <Link href={'items'}>
+                        <button className="button">ITEMS</button>
+                    </Link>
+                    <Link href={'/info'}>
+                        <button className="button">INFO</button>
+                    </Link>
                 </div>
             </nav>
 
-            <div className="mt-6  w-[1300px] h-[6px]   bg-blue-500"></div>
-
-            <div className="bubble mt-10 flex flex-row justify-center gap-6 h-[600px]">
-                <div
-                    className=" relative z-0 mt-3  w-[600px] h-[600px]
-                 flex flex-col  items-center "
-                >
-                    <div
-                        className="tenor-gif-embed  w-[500px] h-[400px]"
-                        data-postid="14464540"
-                        data-share-method="host"
-                        data-aspect-ratio="1"
-                        data-width="100%"
-                    >
-                        <a href="https://tenor.com/view/bubble-blue-abstract-surreal-physic-gif-14464540">
-                            Bubble Blue GIF
-                        </a>
-                        from{' '}
-                        <a href="https://tenor.com/search/bubble-gifs">
-                            Bubble GIFs
-                        </a>
+            <div className="flex flex-row w-screen justify-between align-center">
+                <div className=" mt-10 ml-[50px] flex flex-col items-start justify-center ">
+                    <div className=" relative flex mb-[100px] flex-col gap-0 items-start w-[1600px] h-[900px]">
+                        <Image
+                            src="/assets/images/gray.png"
+                            fill // 부모 요소에 가득 차게 함
+                            alt="회색 이미지"
+                            className="object-fill "
+                        />
                     </div>
                     <div>
-                        <motion.p
+                        <motion.div
                             initial="hidden"
                             animate="visible"
                             variants={nameVariants}
-                            className="name text-blue-500  mt-5 text-right text-7xl"
+                            className="flex flex-col gap-[50px]  text-left text-[320px]"
                         >
-                            MÁRMO COFFEE
-                        </motion.p>
+                            <span className="name1 text-[#544C4C]  text-[120px]">
+                                THE PROJECT :{' '}
+                            </span>
+                            <div className="flex flex-col name2 leading-none gap-[0px] text-[#544C4C] ">
+                                <span className="p-0">MARMO</span>
+                                <span className="p-0 mt-0">COFFEE</span>
+                            </div>
+                        </motion.div>
                     </div>
-                    <div className="w-[600px] h-[6px] mt-3 bg-blue-500"></div>
                 </div>
-                <div className="flex flex-col gap-3">
-                    <div className="second border-blue-500 border-[4px] pr-3 mr-3 rounded-xl  w-[700px] h-[600px] "></div>
-                </div>
-            </div>
 
-            <div
-                className="flex flex-row mt-28
-             mb-28 justify-center items-center"
-            >
-                <motion.p
-                    initial="hidden"
-                    animate="visible"
-                    variants={helloVariants}
-                    className="hi  mt-5 text-right text-7xl hi text-white"
-                >
-                    안녕하세요. 예비 프론트앤드 개발자, 조미성 입니다.
-                </motion.p>
-            </div>
-
-            <div className=" w-100% h-[400px] mb-8  flex flex-row justify-center items-center gap-10 ">
-                <div
-                    onClick={goHome}
-                    className="home contact rounded-xl transition-opacity duration-300 ease-in-out hover:opacity-50 border-blue-200 border-[7px] w-[300px] h-[400px] bg-blue-500 flex flex-col items-center justify-center relative"
-                >
-                    <p className="cursor-pointer white text-6xl text-white">
-                        Home
-                    </p>
-                </div>
-                <div
-                    onClick={goAbout}
-                    className="cursor-pointer about transition-opacity duration-300 ease-in-out hover:opacity-50 rounded-xl  border-blue-200 border-[7px] w-[300px] h-[400px] bg-blue-500 flex flex-col items-center justify-center relative"
-                >
-                    <p className="white text-6xl text-white">About</p>
-                </div>
-                <div
-                    onClick={goProject}
-                    className="cursor-pointer project transition-opacity duration-300 ease-in-out hover:opacity-50 rounded-xl  border-blue-200 border-[7px] w-[300px] h-[400px] bg-blue-500 flex flex-col items-center justify-center relative"
-                >
-                    <p className="white text-6xl text-white">Project</p>
-                </div>
-                <div
-                    onClick={goArchive}
-                    className="cursor-pointer archive transition-opacity duration-300 ease-in-out hover:opacity-50 rounded-xl  border-blue-200 border-[7px] w-[300px] h-[400px] bg-blue-500 flex flex-col items-center justify-center relative"
-                >
-                    <p className="white text-6xl text-white">Archive</p>
+                <div className="flex flex-row justify-center mb-8 mt-[40px] mr-[50px] items-center gap-10 ">
+                    <div className="white shadow-2xl w-[800px] flex-1 h-[1850px] border-[1px] border-black border-solid rounded-3xl"></div>
+                    <div className="white shadow-2xl w-[800px] flex-1 h-[1850px] border-[1px] border-black border-solid rounded-3xl"></div>
+                    <div className="white shadow-2xl w-[800px] flex-1 h-[1850px] border-[1px] border-black border-solid rounded-3xl"></div>
                 </div>
             </div>
-            <div className="h-[50px]"></div>
-            <div className="mt-6  w-[1300px] h-[6px]   bg-blue-500"></div>
-            <div className="h-[100px]"></div>
         </>
     )
 }

@@ -19,10 +19,15 @@
 }
 
 html {
-    //background-image: url('https://i.pinimg.com/564x/44/1f/c8/441fc876392ed7e9a95bf412c04d9f54.jpg');
+    background-image: url('/assets/images/background.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: black;
+}
+
+.white {
+    background-image: url('/assets/images/height.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body {
@@ -33,10 +38,26 @@ body {
 
 .bar1 {
     font-family: 'SF_HambakSnow';
-    -webkit-text-stroke: 1px [#544c4c];
+    -webkit-text-stroke: 2px #544c4c;
+}
+
+.name2 {
+    font-family: 'SF_HambakSnow';
+    -webkit-text-stroke: 15px #544c4c;
+}
+
+.button:hover {
+    color: white;
+    -webkit-text-stroke: 3px white;
 }
 
 .bar2 {
     font-family: 'Pretendard-Regular';
-    font-weight: 800; // extrabold
+    -webkit-text-stroke: 3px #949597;
+}
+
+.name1 {
+    font-family: 'Pretendard-Regular';
+    font-weight: 600; /* extrabold */
+    -webkit-text-stroke: 6px #544c4c;
 }
