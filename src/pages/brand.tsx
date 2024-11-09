@@ -1,8 +1,17 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import { motion } from 'framer-motion'
 
 const Brand = () => {
+    const nameVariants = {
+        hidden: { opacity: 0, x: -100 },
+        visible: {
+            opacity: 1,
+            x: 0,
+            transition: { duration: 1, delay: 0.5 },
+        },
+    }
     return (
         <>
             <div className="flex flex-row w-screen justify-between font-bold mt-[19px]">
@@ -35,14 +44,19 @@ const Brand = () => {
                             className="object-fill "
                         />
                     </div>
-                    <div className="flex flex-col items-end mt-[110px] gap-[5px] mr-[15px]  text-left text-[90px]">
+                    <motion.div
+                        initial="hidden"
+                        animate="visible"
+                        variants={nameVariants}
+                        className="flex flex-col items-end mt-[110px] gap-[5px] mr-[15px]  text-left text-[90px]"
+                    >
                         <span className="name1  text-[#6b8e6d]  text-[30px]">
                             THE PROJECT :{' '}
                         </span>
                         <div className="flex flex-col underline name2 leading-none gap-[0px] text-[#544C4C] ">
                             <span className="p-0">MARMO</span>
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
                 <div className="flex flex-col items-center mt-[50px] justify-center brandExplain text-[25px] text-black">
                     <span>
@@ -67,9 +81,9 @@ const Brand = () => {
                         속 눈부신 순간을 선사하겠습니다.
                     </span>
                 </div>
-                <div className=" relative flex flex-col w-max-[1000px] mt-[30px] gap-0 items-start mr-[15px] ml-[15px] h-[20px]">
+                <div className=" relative flex flex-col w-max-[1000px] mt-[50px] gap-0 items-start mr-[15px] ml-[15px] h-[20px]">
                     <Image
-                        src="/assets/images/coffee.png"
+                        src="/assets/images/gray.png"
                         fill // 부모 요소에 가득 차게 함
                         alt="회색 이미지"
                         className="object-fill"
