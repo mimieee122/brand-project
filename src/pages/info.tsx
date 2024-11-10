@@ -27,6 +27,22 @@ const Info = () => {
                 </div>
             </div>
             <div className="w-screen h-[3px] mt-[15px] justify-self-center bg-gray-600"></div>
+            <div className="flex flex-row w-max-screen h-max-screen">
+                <div className="flex flex-col items-center m-10 w-1/2 h-[600px] relative">
+                    {' '}
+                    <Image
+                        src="/assets/images/gray.png"
+                        fill
+                        alt="items"
+                        className="object-fill rounded-2xl"
+                    />
+                </div>
+                <div className="flex flex-col w-1/2 mt-10 h-[600px] items-center gap-[30px]">
+                    <div className="profile rounded-2xl w-[600px] border-[1px] border-black border-solid h-[180px]"></div>
+                    <div className="profile rounded-2xl w-[600px] border-[1px] border-black border-solid h-[180px]"></div>
+                    <div className="profile rounded-2xl w-[600px] border-[1px] border-black border-solid h-[180px]"></div>
+                </div>
+            </div>
         </>
     )
 }

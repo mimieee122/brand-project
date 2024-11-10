@@ -30,7 +30,7 @@ const Details = () => {
 
             <div className="flex flex-col items-center gap-[10px] mt-[20px]">
                 <div className="flex flex-row w-max-screen justify-between gap-[100px] ml-[140px]">
-                    <div className="flex flex-col shadow-2xl rounded-md mt-[5px] w-[850px] h-[580px] border-[#544c4c] border-[3px] border-solid items-center">
+                    <div className="flex flex-col shadow-2xl rounded-2xl mt-[5px] w-[850px] h-[580px] border-[#544c4c] border-[5px] border-solid items-center">
                         <div className="flex flex-row justify-center mt-[5px] relative gap-[30px]">
                             <div className="relative flex flex-col  w-[150px] h-[280px] items-center">
                                 <Image
