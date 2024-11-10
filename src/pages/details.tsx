@@ -26,12 +26,12 @@ const Details = () => {
                     </Link>
                 </div>
             </div>
-            <div className="w-screen h-[3px] mt-[10px] justify-self-center bg-gray-600"></div>
+            <div className="w-screen h-[3px] mt-[15px] justify-self-center bg-gray-600"></div>
 
             <div className="flex flex-col items-center gap-[10px] mt-[20px]">
-                <div className="flex flex-row w-max-screen justify-between gap-[120px] ml-[180px]">
-                    <div className="flex flex-col items-center">
-                        <div className=" relative flex flex-col gap-0 items-center w-[420px] h-[280px]">
+                <div className="flex flex-row w-max-screen justify-between gap-[100px] ml-[140px]">
+                    <div className="flex flex-col shadow-2xl rounded-md mt-[5px] w-[850px] h-[580px] border-black border-[2px] border-solid items-center">
+                        <div className=" relative  flex flex-col gap-0 items-center w-[400px] h-[280px]">
                             <Image
                                 src="/assets/images/marimo.png"
                                 fill // 부모 요소에 가득 차게 함
@@ -43,7 +43,7 @@ const Details = () => {
                             <span className="name2 mb-[2px] text-[52px] text-[#544c4c] underline">
                                 DETAILS
                             </span>
-                            <span className="text-[#9c753a]">
+                            <span className="text-[#836d4c]">
                                 원액은 1회분(50ml) 개별 포장되며, 물(200ml)과 약
                                 1:4 비율로 섞으면 됩니다.
                             </span>
@@ -74,7 +74,7 @@ const Details = () => {
 
                 <div className="w-screen h-[3px] mt-[10px] justify-self-center bg-gray-600"></div>
                 <Link href={'/items'}>
-                    <div className="relative flex flex-col gap-0 justify-start items-start w-[60px] h-[50px]">
+                    <div className="relative flex flex-col gap-0 justify-start items-start w-[60px] h-[45px]">
                         <Image
                             src="/assets/images/arrow.png"
                             fill // 부모 요소에 가득 차게 함

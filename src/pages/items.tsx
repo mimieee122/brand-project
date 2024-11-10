@@ -26,7 +26,7 @@ const Items = () => {
                     </Link>
                 </div>
             </div>
-            <div className="w-screen h-[2px] mt-[15px] justify-self-center bg-gray-600"></div>
+            <div className="w-screen h-[3px] mt-[15px] justify-self-center bg-gray-600"></div>
             <div className="flex flex-row mt-[35px] justify-center gap-[30px]">
                 <div className="item relative flex mt-[25px] ml-[10px]  w-[550px] h-[500px] flex-col justify-center items-center group">
                     <Image

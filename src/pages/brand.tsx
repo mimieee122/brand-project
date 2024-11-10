@@ -34,7 +34,7 @@ const Brand = () => {
                     </Link>
                 </div>
             </div>
-            <div className="w-screen h-[2px] mt-[15px] justify-self-center bg-gray-600"></div>
+            <div className="w-screen h-[3px] mt-[15px] justify-self-center bg-gray-600"></div>
 
             <div className="mt-[20px]">
                 <div className="flex flex-row justify-start ml-[15px]  gap-[30px]">
@@ -78,12 +78,12 @@ const Brand = () => {
                             제공합니다.{' '}
                         </span>
                     </div>
-                    <span className="text-[#9c753a]">
+                    <span className="text-[#836d4c]">
                         대리석처럼 영구적이며 변치 않는 가치를 담아, 당신의 일상
                         속 눈부신 순간을 선사하겠습니다.
                     </span>
                 </motion.div>
-                <div className="w-screen h-[2px] mt-[35px] justify-self-center bg-gray-600"></div>
+                <div className="w-screen h-[3px] mt-[35px] justify-self-center bg-gray-600"></div>
             </div>
         </>
     )
