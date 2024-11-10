@@ -38,7 +38,7 @@ const Info = () => {
             <div className="w-screen h-[3px] mt-[15px] justify-self-center bg-gray-600"></div>
             <div className="flex flex-row w-max-screen h-max-screen justify-between">
                 <div className="  flex flex-col mt-8 ml-5  items-start justify-start ">
-                    <div className=" relative flex mb-[20px] flex-col gap-0 items-start w-[500px] h-[350px]">
+                    <div className=" relative flex mb-[20px] flex-col gap-0 items-start w-[600px] h-[350px]">
                         <Image
                             src="/assets/images/gray.png"
                             fill // 부모 요소에 가득 차게 함
@@ -51,7 +51,7 @@ const Info = () => {
                             initial="hidden"
                             animate="visible"
                             variants={nameVariants}
-                            className="flex flex-col gap-[10px]  text-left text-[100px]"
+                            className="flex flex-col gap-[10px]  text-left text-[90px]"
                         >
                             <span className="name1  text-[#544C4C]  text-[35px]">
                                 THE PROJECT :{' '}
@@ -64,9 +64,30 @@ const Info = () => {
                     </div>
                 </div>
                 <div className="flex flex-col w-1/2 mt-10 mr-10 h-[600px] items-center gap-[30px]">
-                    <div className="profile rounded-2xl w-[700px] border-[1px] border-black border-solid h-[180px]"></div>
-                    <div className="profile rounded-2xl w-[700px] border-[1px] border-black border-solid h-[180px]"></div>
-                    <div className="profile rounded-2xl w-[700px] border-[1px] border-black border-solid h-[180px]"></div>
+                    <div
+                        className="profile rounded-2xl w-[700px] border-[1px] border-black border-solid h-[180px]
+                    flex flex-col"
+                    >
+                        <div className=" w-[200px] h-[100px] relative text-[80px] text-white text-start">
+                            <span className="absolute z-10 mt-[100px]">
+                                PROFILE
+                            </span>
+                        </div>
+                    </div>
+                    <div className="profile rounded-2xl w-[700px] border-[1px] border-black border-solid h-[180px]">
+                        <div className=" w-[200px] h-[100px] relative text-[80px] text-white text-start">
+                            <span className="absolute z-10 mt-[100px]">
+                                LOCATION
+                            </span>
+                        </div>
+                    </div>
+                    <div className="profile rounded-2xl w-[700px] border-[1px] border-black border-solid h-[180px]">
+                        <div className=" w-[200px] h-[100px] relative text-[80px] text-white text-start">
+                            <span className="absolute z-10 mt-[100px]">
+                                CONTACT
+                            </span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
