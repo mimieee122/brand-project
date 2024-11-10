@@ -18,6 +18,21 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'PFStardust';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/PFStardust.woff')
+        format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.infos * {
+    color: black;
+
+    font-family: 'SF_HambakSnow';
+    -webkit-text-stroke: 0.5px black;
+}
+
 html {
     background-image: url('/assets/images/background.png');
     background-repeat: no-repeat;
@@ -30,19 +45,51 @@ html {
     background-size: cover;
 }
 
+.details {
+    background-image: url('/assets/images/white.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box::before {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.box {
+    box-shadow: 0 20px 40px gray;
+    background-image: url('/assets/images/greenW.png');
+    background-repeat: no-repeat;
+    color: white;
+    background-opacity: 20;
+    background-size: cover;
+}
+
 .white:hover * {
     color: #6b8e6d;
     -webkit-text-stroke: 2px black;
 }
 
-.profile {
-    background-image: url('/assets/images/white.png');
+.profile:hover {
+    background-image: url('/assets/images/greenW.png');
     background-repeat: no-repeat;
     background-size: cover;
+    border-color: white;
+}
+
+.profile:hover * {
+    color: white;
+    -webkit-text-stroke: 0.5px white;
+}
+
+.profile {
+    background-image: url('/assets/images/gray.png');
+    background-repeat: no-repeat;
+    background-opacity: 20;
+    background-size: cover;
     font-family: 'SF_HambakSnow';
-    font-weight: 600;
-    -webkit-text-stroke: 1.5px #544c4c;
-    box-shadow: 0 20px 40px gray;
+    font-weight: 1200;
+    -webkit-text-stroke: 1.5px black;
+    box-shadow: 10px 10px 20px black;
 }
 
 .white {
@@ -51,10 +98,6 @@ html {
     background-size: cover;
     font-family: 'SF_HambakSnow';
     -webkit-text-stroke: 2px #544c4c;
-    box-shadow: 0 20px 40px gray;
-}
-
-.box {
     box-shadow: 0 20px 40px gray;
 }
 

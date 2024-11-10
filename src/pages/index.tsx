@@ -71,7 +71,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-row justify-center  mb-8 mt-[1px] mr-[50px] items-center gap-2 ">
+                <div className="flex flex-row justify-center  mb-8 mt-[1px] mr-[15px] items-center gap-2 ">
                     <Link href={'/brand'}>
                         <div className="white shadow-2xl flex flex-col items-center justify-end w-[280px] flex-1  h-[650px] border-[2px] border-black border-solid rounded-2xl">
                             <div className="rotate-[-90deg] w-[200px] h-[100px] text-[100px] text-white transform origin-top-left text-end mb-[200px] ml-[180px]">

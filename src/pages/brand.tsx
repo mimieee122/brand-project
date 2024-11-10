@@ -34,7 +34,7 @@ const Brand = () => {
                     </Link>
                 </div>
             </div>
-            <div className="w-screen h-[3px] mt-[15px] justify-self-center bg-gray-600"></div>
+            <div className="w-screen h-[1.5px] mt-[15px] justify-self-center bg-gray-600"></div>
 
             <div className="mt-[20px]">
                 <div className="flex flex-row justify-start ml-[15px]  gap-[30px]">
@@ -83,7 +83,7 @@ const Brand = () => {
                         속 눈부신 순간을 선사하겠습니다.
                     </span>
                 </motion.div>
-                <div className="w-screen h-[3px] mt-[35px] justify-self-center bg-gray-600"></div>
+                <div className="w-screen h-[1.5px] mt-[35px] justify-self-center bg-gray-600"></div>
             </div>
         </>
     )
