@@ -26,11 +26,11 @@ const Details = () => {
                     </Link>
                 </div>
             </div>
-            <div className="w-screen h-[2px] mt-[15px] justify-self-center bg-[#836d4c]"></div>
+            <div className="w-screen h-[3px] mt-[15px] justify-self-center bg-[#6b8e6d]"></div>
 
             <div className="flex flex-col items-center gap-[10px] mt-[20px]">
                 <div className="flex flex-row w-max-screen justify-between gap-[100px] ml-[140px]">
-                    <div className="flex flex-col shadow-2xl rounded-2xl mt-[5px] w-[850px] h-[580px] border-[#544c4c] border-[5px] border-solid items-center">
+                    <div className="flex flex-col shadow-2xl rounded-2xl mt-[5px] w-[850px] h-[580px] border-[#544c4c] border-[3px] border-solid items-center">
                         <div className="flex flex-row justify-center mt-[5px] relative gap-[30px]">
                             <div className="relative flex flex-col  w-[150px] h-[280px] items-center">
                                 <Image
@@ -49,11 +49,11 @@ const Details = () => {
                                 />
                             </div>
                         </div>
-                        <div className="flex flex-col items-center mt-[10px] justify-center brandExplain text-[24px] text-black">
-                            <span className="name2 mb-[2px] text-[50px] text-[#544c4c] underline">
+                        <div className="flex flex-col items-center mt-[5px] justify-center brandExplain text-[24px] text-black">
+                            <span className="name2 mb-[2px] text-[55px] text-[#544c4c] underline">
                                 DETAILS
                             </span>
-                            <span className="text-[#836d4c]">
+                            <span className="text-[#6b8e6d]">
                                 원액은 1회분(50ml) 개별 포장되며, 물(200ml)과 약
                                 1:4 비율로 섞으면 됩니다.
                             </span>
@@ -82,7 +82,7 @@ const Details = () => {
                     </div>
                 </div>
 
-                <div className="w-screen h-[2px] mt-[10px] justify-self-center bg-[#836d4c]"></div>
+                <div className="w-screen h-[3px] mt-[10px] justify-self-center bg-[#6b8e6d]"></div>
                 <Link href={'/items'}>
                     <div className="relative flex flex-col gap-0 justify-start items-start w-[60px] h-[45px]">
                         <Image
