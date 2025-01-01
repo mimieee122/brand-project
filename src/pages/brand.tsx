@@ -37,23 +37,23 @@ const Brand = () => {
             <div className="w-screen h-[1.5px] mt-[15px] justify-self-center bg-gray-600"></div>
 
             <div className="mt-[20px]">
-                <div className="flex flex-row justify-start ml-[15px]  gap-[30px]">
+                <div className="flex flex-row justify-center ml-[15px]  gap-[30px]">
                     <div className=" relative flex flex-col gap-0 items-start w-[1000px] h-[250px]">
                         <Image
-                            src="/assets/images/coffee.png"
+                            src="/assets/images/photos.svg"
                             fill // 부모 요소에 가득 차게 함
                             alt="회색 이미지"
                             className="object-fill "
                         />
                     </div>
-                    <div className="flex flex-col items-end mt-[115px] gap-[5px] mr-[15px]  text-left text-[90px]">
+                    {/* <div className="flex flex-col items-end mt-[115px] gap-[5px] mr-[15px]  text-left text-[90px]">
                         <span className="name1  text-[#6b8e6d]  text-[30px]">
                             THE PROJECT :{' '}
                         </span>
                         <div className="flex flex-col name2 leading-none gap-[0px] text-[#544C4C] ">
                             <span className="p-0">MARMO</span>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <motion.div
                     initial="hidden"

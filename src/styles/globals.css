@@ -39,11 +39,11 @@
     -webkit-text-stroke: 0.5px black;
 }
 
-html {
+/* html {
     background-image: url('/assets/images/background.png');
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 .white:hover {
     background-image: url('/assets/images/gray.png');
