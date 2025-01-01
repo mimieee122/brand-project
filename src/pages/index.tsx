@@ -4,14 +4,14 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 const Home = () => {
-    const nameVariants = {
-        hidden: { opacity: 0, x: -100 },
-        visible: {
-            opacity: 1,
-            x: 0,
-            transition: { duration: 1, delay: 0.5 },
-        },
-    }
+    // const nameVariants = {
+    //     hidden: { opacity: 0, x: -100 },
+    //     visible: {
+    //         opacity: 1,
+    //         x: 0,
+    //         transition: { duration: 1, delay: 0.5 },
+    //     },
+    // }
 
     // const helloVariants = {
     //     hidden: { opacity: 0, y: 100 },
