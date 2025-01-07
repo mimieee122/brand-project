@@ -32,6 +32,15 @@
     }
 }
 
+body {
+    font-family: 'Pretendard-Regular';
+    font-weight: 500; /* extrabold */
+}
+
+.bar2 {
+    font-family: 'Roboto Condensed';
+}
+
 .infos * {
     color: black;
 
@@ -141,11 +150,6 @@ body {
 .small {
     font-family: 'SF_HambakSnow';
     -webkit-text-stroke: 1px black;
-}
-
-.bar2 {
-    font-family: 'Pretendard-Regular';
-    -webkit-text-stroke: 1.5px #949597;
 }
 
 .name1 {

@@ -5,26 +5,36 @@ import Image from 'next/image'
 const Details = () => {
     return (
         <>
-            <div className="flex flex-row w-screen justify-between font-bold mt-[19px]">
-                <div>
-                    <Link href={'/'}>
-                        <button className="text-[#544C4C] button bar1 ml-[15px] text-[35px]">
+            <nav className="flex flex-row justify-between  h-[60px] items-center  ">
+                {/* <Link href={'/'}>
+                        <button className="text-[#544C4C] button bar1 text-[35px]">
                             MÁRMO
                         </button>
-                    </Link>
-                </div>
-                <div className="flex flex-row text-[#949597] mr-[15px] text-[30px] bar2 justify-center mt-[5px] gap-8">
+                    </Link> */}
+                <Link href={'/'}>
+                    <div className="flex  pl-[80px] h-[28px]">
+                        <Image
+                            src="/assets/images/fl.svg"
+                            width={78} // 원하는 비율로 width 지정
+                            height={28} // height도 지정하여 비율을 맞추기
+                            alt="로고 사진"
+                            className="object-fill w-full h-full"
+                        />
+                    </div>
+                </Link>
+
+                <div className="flex flex-row  text-[#2C2E35] pr-[80px]  text-[24px] bar2 gap-[80px]">
                     <Link href={'/brand'}>
-                        <button className="button">BRAND</button>
+                        <button className="button">ABOUT</button>
                     </Link>
-                    <Link href={'/items'}>
-                        <button className="button">ITEMS</button>
+                    <Link href={'items'}>
+                        <button className="button">PRODUCTS</button>
                     </Link>
                     <Link href={'/info'}>
-                        <button className="button">INFO</button>
+                        <button className="button ">CONTACT</button>
                     </Link>
                 </div>
-            </div>
+            </nav>
             <div className="w-screen h-[1.5px] mt-[15px] justify-self-center bg-[#544c4c]"></div>
 
             <div className="flex flex-col items-center gap-[10px] mt-[20px]">
