@@ -1,17 +1,16 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { motion } from 'framer-motion'
 
 const Brand = () => {
-    const nameVariants = {
-        hidden: { opacity: 0, y: -100 },
-        visible: {
-            opacity: 1,
-            y: 0,
-            transition: { duration: 2, delay: 0.5 },
-        },
-    }
+    // const nameVariants = {
+    //     hidden: { opacity: 0, y: -100 },
+    //     visible: {
+    //         opacity: 1,
+    //         y: 0,
+    //         transition: { duration: 2, delay: 0.5 },
+    //     },
+    // }
     return (
         <div className="flex flex-col">
             <nav className="flex flex-row  justify-between  h-[60px] items-center  ">
