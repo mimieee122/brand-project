@@ -53,7 +53,7 @@ const Home = () => {
                     </Link>
                 </div>
             </nav>
-            <div className="flex flex-col items-center  max-w-full overflow-y-auto ">
+            <div className="flex flex-col overflow-hidden items-center  max-w-full overflow-y-auto ">
                 <div className="w-full h-[400px]   flex flex-row items-center justify-between bg-[#DFE3E3]">
                     <div className="flex pl-[80px] h-[340px]">
                         <Image
@@ -429,8 +429,8 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className=" w-full max-w-[1417px] overflow-x-hidden pl-[80px] mt-[120px] mb-[120px]  h-[368px] bg-[#F2F5F1] flex flex-row justify-between items-center">
-                    <div className="flex flex-col max-w-[692px]  items-start  gap-[44px]">
+                <div className=" w-full w-max-[1417px]  mt-[120px] mb-[120px]  h-[368px] bg-[#F2F5F1] flex flex-row justify-between pl-[80px] pr-[0px] items-center">
+                    <div className="flex flex-col   items-start  gap-[44px]">
                         <p className="text-[32px] thick font-semibold">
                             마지막 한 모금까지, 깊은 여운
                         </p>
@@ -452,14 +452,14 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className="h-[368px] overflow-hidden">
+                    <div className="mr-[0px] h-[368px] overflow-hidden">
                         {' '}
                         <Image
                             src="/assets/images/banner.svg"
                             width={645} // 원하는 비율로 width 지정
                             height={368} // height도 지정하여 비율을 맞추기
                             alt="로고 사진"
-                            className="object-cover w-full h-full "
+                            className="object-fill  w-full h-full "
                         />
                     </div>
                 </div>
