@@ -13,8 +13,8 @@ const Brand = () => {
         },
     }
     return (
-        <>
-            <nav className="flex flex-row justify-between  h-[60px] items-center  ">
+        <div className="flex flex-col">
+            <nav className="flex flex-row  justify-between  h-[60px] items-center  ">
                 {/* <Link href={'/'}>
                         <button className="text-[#544C4C] button bar1 text-[35px]">
                             MÁRMO
@@ -44,27 +44,121 @@ const Brand = () => {
                     </Link>
                 </div>
             </nav>
-            <div className="w-screen h-[1.5px] mt-[15px] justify-self-center bg-gray-600"></div>
-
-            <div className="mt-[20px]">
-                <div className="flex flex-row justify-center ml-[15px]  gap-[30px]">
-                    <div className=" relative flex flex-col gap-0 items-start w-[1000px] h-[250px]">
-                        <Image
-                            src="/assets/images/photos.svg"
-                            fill // 부모 요소에 가득 차게 함
-                            alt="회색 이미지"
-                            className="object-fill "
-                        />
-                    </div>
-                    {/* <div className="flex flex-col items-end mt-[115px] gap-[5px] mr-[15px]  text-left text-[90px]">
-                        <span className="name1  text-[#6b8e6d]  text-[30px]">
-                            THE PROJECT :{' '}
-                        </span>
-                        <div className="flex flex-col name2 leading-none gap-[0px] text-[#544C4C] ">
-                            <span className="p-0">MARMO</span>
-                        </div>
-                    </div> */}
+            <div className="w-full h-[870px]">
+                {' '}
+                <Image
+                    src="/assets/images/brand.svg"
+                    width={1422} // 원하는 비율로 width 지정
+                    height={870} // height도 지정하여 비율을 맞추기
+                    alt="로고 사진"
+                    className="object-fill w-full h-full"
+                />
+            </div>
+            <div className="mt-[120px] flex flex-col items-center justify-center">
+                <p className="text-[40px] mb-[20px] leading-[1] thick font-extrabold">
+                    BRAND VISION
+                </p>
+                <div className=" mr-[80px] ml-[80px] min-w-[1257px] h-[4px] bg-[#DEDEDE]"></div>
+                <div className="mt-[30px] mb-[30px] flex flex-col justify-center items-center">
+                    <p className="leading-[1] text-[24px]">
+                        마르모는 누구나 간편하게 고품질 커피를 즐길 수 있는
+                        세상을 꿈꾸며,
+                    </p>
+                    <p className="leading-[1] pt-[8px] text-[24px]">
+                        세 가지 철학을 실천합니다.
+                    </p>
                 </div>
+                <div className=" mr-[80px] mb-[20px] ml-[80px] min-w-[1257px] h-[4px] bg-[#DEDEDE]"></div>
+            </div>
+            <div
+                className=" mr-[80px] mb-[80px] ml-[80px] min-w-[1257px] h-[325px]
+            flex flex-row justify-center gap-[73px]"
+            >
+                <div
+                    className="flex-1 w-full rounded-xl border-b-white border-b-[4px] shadow-xl shadow-[#878787]  h-[325px] bg-[#2C2E35] flex
+                flex-col items-center justify-center"
+                >
+                    <div className="h-[183px]">
+                        <Image
+                            src="/assets/images/Vector.svg"
+                            width={183} // 원하는 비율로 width 지정
+                            height={183} // height도 지정하여 비율을 맞추기
+                            alt="로고 사진"
+                            className="object-fill w-full h-full"
+                        ></Image>
+                    </div>
+                    <div className="flex flex-row w-[250px] justify-center gap-[8px]">
+                        <p className="text-[26px] text-white font-bold">
+                            INNOVATION
+                        </p>
+                        <p className="text-[19px] pt-[4px] text-[#ABABAB]">
+                            혁신
+                        </p>
+                    </div>
+                    <div className=" mt-[12px] font-medium text-[16px] w-[240px] h-[50px] rounded-lg bg-[#F0F0F0] shadow-lg flex flex-col items-center justify-center">
+                        <p className="leading-[1]">커피 본연의 맛을 살리는</p>
+                        <p className="leading-[1] mt-[2px]">급속 냉각 기술</p>
+                    </div>
+                </div>
+                <div
+                    className="flex-1 w-full rounded-xl border-b-white border-b-[4px] shadow-xl shadow-[#878787]  h-[325px] bg-[#2C2E35] flex
+                flex-col items-center justify-center"
+                >
+                    <div className="h-[183px]">
+                        <Image
+                            src="/assets/images/chain.svg"
+                            width={183} // 원하는 비율로 width 지정
+                            height={183} // height도 지정하여 비율을 맞추기
+                            alt="로고 사진"
+                            className="object-fill w-full h-full"
+                        ></Image>
+                    </div>
+                    <div className="flex flex-row w-[250px] justify-center gap-[8px]">
+                        <p className="text-[24px] text-white font-bold">
+                            ACCESSCIBILITY
+                        </p>
+                        <p className="text-[19px] pt-[4px] text-[#ABABAB]">
+                            접근성
+                        </p>
+                    </div>
+                    <div className=" mt-[12px] font-medium text-[16px] w-[240px] h-[50px] rounded-lg bg-[#F0F0F0] shadow-lg flex flex-col items-center justify-center">
+                        <p className="leading-[1]">언제 어디서나</p>
+                        <p className="leading-[1] mt-[2px]">
+                            간편하게 즐기는 드립커피
+                        </p>
+                    </div>
+                </div>
+                <div
+                    className="flex-1 w-full rounded-xl border-b-white border-b-[4px] shadow-xl shadow-[#878787]  h-[325px] bg-[#2C2E35] flex
+                flex-col items-center justify-center"
+                >
+                    <div className="h-[183px]">
+                        <Image
+                            src="/assets/images/young.svg"
+                            width={183} // 원하는 비율로 width 지정
+                            height={183} // height도 지정하여 비율을 맞추기
+                            alt="로고 사진"
+                            className="object-fill w-full h-full"
+                        ></Image>
+                    </div>
+                    <div className="flex flex-row w-[250px] justify-center gap-[8px]">
+                        <p className="text-[24px] text-white font-bold">
+                            SUSTAINABILITY
+                        </p>
+                        <p className="text-[19px] pt-[4px] text-[#ABABAB]">
+                            영속성
+                        </p>
+                    </div>
+                    <div className=" mt-[12px] font-medium text-[16px] w-[240px] h-[50px] rounded-lg bg-[#F0F0F0] shadow-lg flex flex-col items-center justify-center">
+                        <p className="leading-[1]">
+                            대리석의 영구적 가치를 닮은
+                        </p>
+                        <p className="leading-[1] mt-[2px]">고급스러운 커피</p>
+                    </div>
+                </div>{' '}
+            </div>
+
+            {/* <div className="mt-[20px]">
                 <motion.div
                     initial="hidden"
                     animate="visible"
@@ -93,9 +187,9 @@ const Brand = () => {
                         속 눈부신 순간을 선사하겠습니다.
                     </span>
                 </motion.div>
-                <div className="w-screen h-[1.5px] mt-[35px] justify-self-center bg-gray-600"></div>
-            </div>
-        </>
+                <div className=" h-[1.5px] mt-[35px] justify-self-center bg-gray-600"></div>
+            </div> */}
+        </div>
     )
 }
 

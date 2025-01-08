@@ -36,7 +36,17 @@ const Items = () => {
                     </Link>
                 </div>
             </nav>
-            <div className="w-screen h-[1.5px] mt-[15px] justify-self-center bg-gray-600"></div>
+            <div className="w-full h-[880px] mb-[100px]">
+                {' '}
+                <Image
+                    src="/assets/images/products.svg"
+                    width={1422} // 원하는 비율로 width 지정
+                    height={880} // height도 지정하여 비율을 맞추기
+                    alt="로고 사진"
+                    className="object-fill w-full h-full"
+                />
+            </div>
+            {/* <div className="w-screen h-[1.5px] mt-[15px] justify-self-center bg-gray-600"></div>
             <div className="flex flex-row mt-[35px] justify-center gap-[30px]">
                 <div className="item relative flex mt-[25px] ml-[10px]  w-[550px] h-[500px] flex-col justify-center items-center group">
                     <Image
@@ -70,7 +80,7 @@ const Items = () => {
                         className="object-fill"
                     />
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }

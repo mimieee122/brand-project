@@ -124,12 +124,6 @@ body {
     box-shadow: 0 20px 40px gray;
 }
 
-body {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
 .bar1 {
     font-family: 'SF_HambakSnow';
     -webkit-text-stroke: 2px #544c4c;
