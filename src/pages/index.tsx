@@ -180,7 +180,7 @@ const Home = () => {
                             />
                         </div>
                         <div className="flex flex-col  items-center justify-center">
-                            <p className="text-[44px] leading-[1] thick font-extrabold">
+                            <p className="text-[40px] leading-[1] thick font-extrabold">
                                 SPECIALTY COFFEE
                             </p>
                             <p className="text-[24px] pt-[8px] leading-[1] font-bold text-[#D9D9D9]">
@@ -193,7 +193,7 @@ const Home = () => {
                             <p className="text-[24px] font-bold">
                                 ORIGINAL LINE
                             </p>
-                            <div className="max-w-[638px] w-full  h-[2px] bg-[#2C2E35]"></div>
+                            <div className="w-[540px]   h-[2px] bg-[#D9D9D9]"></div>
                             <div className="max-w-[638px] w-full  h-[482px] flex flex-col items-center mt-[20px] rounded-lg  justify-center bg-white ">
                                 <div className="flex flex-row  flex-1 justify-center gap-[32px]">
                                     <div className="flex-1 flex flex-col justify-center items-center">
@@ -307,7 +307,7 @@ const Home = () => {
                             <p className="text-[24px] font-bold">
                                 PREMIUM LINE
                             </p>
-                            <div className="max-w-[638px] w-full  h-[2px] bg-[#2C2E35]"></div>
+                            <div className="w-[540px]  h-[2px] bg-[#D9D9D9]"></div>
                             <div className="max-w-[638px] w-full  h-[482px] flex flex-col items-center rounded-lg mt-[20px] justify-center bg-white ">
                                 <div className="flex flex-row  flex-1 justify-center gap-[32px]">
                                     <div className="flex-1 flex flex-col justify-center items-center">
@@ -385,12 +385,49 @@ const Home = () => {
                         </div>
                     </div>
                     <Link href={'/items'}>
-                        <div className="flex mb-[100px]  justify-center items-center mt-[44px] border-[2px]  border-[#D9D9D9] rounded-3xl  w-[399px] h-[50px] ">
+                        <div className="flex mb-[100px]  justify-center items-center mt-[44px] border-[2.4px]  border-[#D9D9D9] rounded-3xl  w-[399px] h-[50px] ">
                             <p className="text-[20px] font-bold text-[#2C2E35]">
                                 모든 커피 상세보기
                             </p>
                         </div>
                     </Link>
+                </div>
+                <div className="max-w-[1258px] mb-[100px] flex flex-col gap-[28px] items-center justify-center rounded-3xl w-full h-[428px] mt-[120px] mr-[80px] ml-[80px] bg-[#EDEDED]">
+                    <p className="text-[40px] leading-[1] thick font-extrabold">
+                        HOW TO USE
+                    </p>
+                    <p className="  text-[20px] font-semibold">
+                        마르모 커피 1: 물 4의 비율로, 마르모 커피 50ml와 물
+                        200ml를 섞으면 고급 드립 커피가 완성됩니다
+                    </p>
+                    <div className="w-full flex flex-row justify-center items-center">
+                        <div className="flex-1"></div>
+                        <div className="flex-1 h-[161px]">
+                            <Image
+                                src="/assets/images/use.svg"
+                                width={289} // 원하는 비율로 width 지정
+                                height={161} // height도 지정하여 비율을 맞추기
+                                alt="로고 사진"
+                                className="object-fill rounded-lg w-full h-full"
+                            />
+                        </div>
+                        <div className="flex-1 flex-col gap-[22px] items-start  justify-center">
+                            <div className="w-[284px] h-[2px] mb-[22px]  bg-black"></div>
+                            <p className="text-[18px] thick">
+                                나만의 커피 스타일링
+                            </p>
+                            <p className="mt-[16px] text-[13px]">
+                                마르모 원액은 우유, 탄산음료, 아이스크림 등과
+                                쉽게 섞여
+                            </p>
+                            <p className="text-[13px]">
+                                아이스커피, 핫커피, 라떼, 아포가토까지 다양한
+                                스타일로{' '}
+                            </p>
+                            <p className="text-[13px]">즐길 수 있습니다다</p>
+                            <div className="w-[284px] h-[2px] mt-[22px] bg-black"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
