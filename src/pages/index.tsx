@@ -64,7 +64,7 @@ const Home = () => {
                             className="object-fill w-full h-full"
                         />
                     </div>
-                    <div className="flex w-[894px] h-[400px]">
+                    <div className="flex mr-0 h-[400px]">
                         <Image
                             src="/assets/images/cross.svg"
                             width={894} // 원하는 비율로 width 지정
@@ -92,7 +92,7 @@ const Home = () => {
                 </div>
                 <div className="mt-[20px] flex flex-row max-w-full justify-center items-center gap-[29px] ">
                     <div
-                        className="w-[399px] h-[255px] border-b-[3px] border-b-[#2C2E35] items-center justify-center rounded-2xl bg-[#D7D6D2]
+                        className="flex-1 min-w-[399px] w-auto h-[255px] border-b-[3px] border-b-[#2C2E35] items-center justify-center rounded-2xl bg-[#D7D6D2]
                 flex flex-col"
                     >
                         <div className="flex flex-col items-center  gap-[17px]">
@@ -115,7 +115,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div
-                        className="w-[399px] h-[255px] border-b-[3px] border-b-[#2C2E35] items-center justify-center rounded-2xl bg-[#D7D6D2]
+                        className="flex-1 min-w-[399px] h-[255px] border-b-[3px] border-b-[#2C2E35] items-center justify-center rounded-2xl bg-[#D7D6D2]
                 flex flex-col"
                     >
                         <div className="flex flex-col items-center  gap-[17px]">
@@ -138,7 +138,7 @@ const Home = () => {
                         </div>
                     </div>{' '}
                     <div
-                        className="w-[399px] h-[255px] border-b-[3px] border-b-[#2C2E35] items-center justify-center rounded-2xl bg-[#D7D6D2]
+                        className="flex-1 min-w-[399px] h-[255px] border-b-[3px] border-b-[#2C2E35] items-center justify-center rounded-2xl bg-[#D7D6D2]
                 flex flex-col"
                     >
                         <div className="flex flex-col items-center  gap-[17px]">
@@ -162,12 +162,236 @@ const Home = () => {
                     </div>{' '}
                 </div>
                 <Link href={'/brand'}>
-                    <div className="flex mb-[160px]  justify-center items-center mt-[40px] border-[2px]  border-[#D9D9D9] rounded-3xl  w-[399px] h-[50px] ">
+                    <div className="flex mb-[100px]  justify-center items-center mt-[40px] border-[2px]  border-[#D9D9D9] rounded-3xl  w-[399px] h-[50px] ">
                         <p className="text-[20px] font-bold text-[#2C2E35]">
                             브랜드 상세보기
                         </p>
                     </div>
                 </Link>
+                <div className="arch w-full h-[1018px] flex flex-col items-center justify-center">
+                    <div className="mt-[60px] flex flex-col gap-[22px] items-center justify-center">
+                        <div className="flex  h-[36px]">
+                            <Image
+                                src="/assets/images/fl.svg"
+                                width={105} // 원하는 비율로 width 지정
+                                height={36} // height도 지정하여 비율을 맞추기
+                                alt="로고 사진"
+                                className="object-fill w-full h-full"
+                            />
+                        </div>
+                        <div className="flex flex-col  items-center justify-center">
+                            <p className="text-[44px] leading-[1] thick font-extrabold">
+                                SPECIALTY COFFEE
+                            </p>
+                            <p className="text-[24px] pt-[8px] leading-[1] font-bold text-[#D9D9D9]">
+                                IN MARMO
+                            </p>
+                        </div>
+                    </div>
+                    <div className="mt-[60px] w-full flex flex-row gap-[16px] justify-center ">
+                        <div className="flex w-1/2 flex-col ml-[80px] h-[555px] gap-[22px] justify-center items-center">
+                            <p className="text-[24px] font-bold">
+                                ORIGINAL LINE
+                            </p>
+                            <div className="max-w-[638px] w-full  h-[2px] bg-[#2C2E35]"></div>
+                            <div className="max-w-[638px] w-full  h-[482px] flex flex-col items-center mt-[20px] rounded-lg  justify-center bg-white ">
+                                <div className="flex flex-row  flex-1 justify-center gap-[32px]">
+                                    <div className="flex-1 flex flex-col justify-center items-center">
+                                        <div className="flex  h-[132px]">
+                                            <Image
+                                                src="/assets/images/sahara.svg"
+                                                width={150} // 원하는 비율로 width 지정
+                                                height={132} // height도 지정하여 비율을 맞추기
+                                                alt="로고 사진"
+                                                className="object-fill rounded-lg w-full h-full"
+                                            />
+                                        </div>
+                                        <p className="text-[20px] mt-[12px] font-bold">
+                                            사하라 노이어
+                                        </p>
+                                        <p className="text-[12px]  text-[#787878]">
+                                            과테말라(Guatemala)
+                                        </p>
+                                    </div>
+                                    <div className="flex-1 flex flex-col justify-center items-center">
+                                        <div className="flex  h-[132px]">
+                                            <Image
+                                                src="/assets/images/gree.svg"
+                                                width={150} // 원하는 비율로 width 지정
+                                                height={132} // height도 지정하여 비율을 맞추기
+                                                alt="로고 사진"
+                                                className="object-fill rounded-lg w-full h-full"
+                                            />
+                                        </div>
+                                        <p className="text-[20px] mt-[12px] font-bold">
+                                            그리지오 카르니코
+                                        </p>
+                                        <p className="text-[12px]  text-[#787878]">
+                                            에티오피아(Ethiopia)
+                                        </p>
+                                    </div>{' '}
+                                    <div className="flex-1 flex flex-col justify-center items-center">
+                                        <div className="flex  h-[132px]">
+                                            <Image
+                                                src="/assets/images/black.svg"
+                                                width={150} // 원하는 비율로 width 지정
+                                                height={132} // height도 지정하여 비율을 맞추기
+                                                alt="로고 사진"
+                                                className="object-fill rounded-lg w-full h-full"
+                                            />
+                                        </div>
+                                        <p className="text-[20px] mt-[12px] font-bold">
+                                            블랙카페
+                                        </p>
+                                        <p className="text-[12px] text-[#787878] ">
+                                            콜롬비아(Columbia)
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="flex flex-row flex-1 justify-center gap-[32px]">
+                                    <div className="flex-1 flex flex-col justify-center items-center">
+                                        <div className="flex  h-[132px]">
+                                            <Image
+                                                src="/assets/images/agos.svg"
+                                                width={150} // 원하는 비율로 width 지정
+                                                height={132} // height도 지정하여 비율을 맞추기
+                                                alt="로고 사진"
+                                                className="object-fill rounded-lg w-full h-full"
+                                            />
+                                        </div>
+                                        <p className="text-[20px] mt-[12px] font-bold">
+                                            아고스블랙
+                                        </p>
+                                        <p className="text-[12px]  text-[#787878]">
+                                            브라질(Brazil)
+                                        </p>
+                                    </div>
+                                    <div className="flex-1 flex flex-col justify-center items-center">
+                                        <div className="flex  h-[132px]">
+                                            <Image
+                                                src="/assets/images/grand.svg"
+                                                width={150} // 원하는 비율로 width 지정
+                                                height={132} // height도 지정하여 비율을 맞추기
+                                                alt="로고 사진"
+                                                className="object-fill rounded-lg w-full h-full"
+                                            />
+                                        </div>
+                                        <p className="text-[20px] mt-[12px] font-bold">
+                                            그랜드 엔티크
+                                        </p>
+                                        <p className="text-[12px]  text-[#787878]">
+                                            코스타리카(Coasta Rica)
+                                        </p>
+                                    </div>{' '}
+                                    <div className="flex-1 flex flex-col justify-center items-center">
+                                        <div className="flex  h-[132px]">
+                                            <Image
+                                                src="/assets/images/nero.svg"
+                                                width={150} // 원하는 비율로 width 지정
+                                                height={132} // height도 지정하여 비율을 맞추기
+                                                alt="로고 사진"
+                                                className="object-fill rounded-lg w-full h-full"
+                                            />
+                                        </div>
+                                        <p className="text-[20px] mt-[12px] font-bold">
+                                            네로 마르퀴나
+                                        </p>
+                                        <p className="text-[12px] text-[#787878] ">
+                                            케냐(Kenya)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="flex w-1/2   flex-col mr-[80px] h-[555px] gap-[22px] justify-center items-center">
+                            <p className="text-[24px] font-bold">
+                                PREMIUM LINE
+                            </p>
+                            <div className="max-w-[638px] w-full  h-[2px] bg-[#2C2E35]"></div>
+                            <div className="max-w-[638px] w-full  h-[482px] flex flex-col items-center rounded-lg mt-[20px] justify-center bg-white ">
+                                <div className="flex flex-row  flex-1 justify-center gap-[32px]">
+                                    <div className="flex-1 flex flex-col justify-center items-center">
+                                        <div className="flex  h-[132px]">
+                                            <Image
+                                                src="/assets/images/bed.svg"
+                                                width={150} // 원하는 비율로 width 지정
+                                                height={132} // height도 지정하여 비율을 맞추기
+                                                alt="로고 사진"
+                                                className="object-fill rounded-lg w-full h-full"
+                                            />
+                                        </div>
+                                        <p className="text-[20px]  mt-[12px] font-bold">
+                                            베드데알피
+                                        </p>
+                                        <p className="text-[12px] text-[#787878] ">
+                                            과테말라 게이샤
+                                        </p>
+                                    </div>{' '}
+                                    <div className="flex-1 flex flex-col justify-center items-center">
+                                        <div className="flex  h-[132px]">
+                                            <Image
+                                                src="/assets/images/roso.svg"
+                                                width={150} // 원하는 비율로 width 지정
+                                                height={132} // height도 지정하여 비율을 맞추기
+                                                alt="로고 사진"
+                                                className="object-fill rounded-lg w-full h-full"
+                                            />
+                                        </div>
+                                        <p className="text-[20px] mt-[12px] font-bold">
+                                            로소 레판토
+                                        </p>
+                                        <p className="text-[12px] text-[#787878] ">
+                                            에티오피아 게이샤
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="flex flex-row flex-1 justify-center gap-[32px]">
+                                    <div className="flex-1 flex flex-col justify-center items-center">
+                                        <div className="flex  h-[132px]">
+                                            <Image
+                                                src="/assets/images/ali.svg"
+                                                width={150} // 원하는 비율로 width 지정
+                                                height={132} // height도 지정하여 비율을 맞추기
+                                                alt="로고 사진"
+                                                className="object-fill rounded-lg w-full h-full"
+                                            />
+                                        </div>
+                                        <p className="text-[20px] mt-[12px] font-bold">
+                                            로소 알리칸데
+                                        </p>
+                                        <p className="text-[12px]  text-[#787878]">
+                                            콜롬비아 가향원두
+                                        </p>
+                                    </div>
+                                    <div className="flex-1 flex flex-col justify-center items-center">
+                                        <div className="flex  h-[132px]">
+                                            <Image
+                                                src="/assets/images/tree.svg"
+                                                width={150} // 원하는 비율로 width 지정
+                                                height={132} // height도 지정하여 비율을 맞추기
+                                                alt="로고 사진"
+                                                className="object-fill rounded-lg w-full h-full"
+                                            />
+                                        </div>
+                                        <p className="text-[20px] mt-[12px] font-bold">
+                                            아밀릴로 트리아나
+                                        </p>
+                                        <p className="text-[12px]  text-[#787878]">
+                                            파나마 게이샤
+                                        </p>
+                                    </div>{' '}
+                                </div>
+                            </div>{' '}
+                        </div>
+                    </div>
+                    <Link href={'/items'}>
+                        <div className="flex mb-[100px]  justify-center items-center mt-[44px] border-[2px]  border-[#D9D9D9] rounded-3xl  w-[399px] h-[50px] ">
+                            <p className="text-[20px] font-bold text-[#2C2E35]">
+                                모든 커피 상세보기
+                            </p>
+                        </div>
+                    </Link>
+                </div>
             </div>
         </div>
     )

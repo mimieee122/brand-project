@@ -59,6 +59,15 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.arch {
+    background-image: url('/assets/images/bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.thick {
+    -webkit-text-stroke: 1.6px black;
+}
 
 .details {
     background-image: url('/assets/images/white.png');
