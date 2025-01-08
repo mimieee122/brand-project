@@ -193,7 +193,7 @@ const Home = () => {
                             <p className="text-[24px] font-bold">
                                 ORIGINAL LINE
                             </p>
-                            <div className="w-[540px]   h-[2px] bg-[#D9D9D9]"></div>
+                            <div className="w-[540px]   h-[2px] bg-[#2C2E35]"></div>
                             <div className="max-w-[638px] w-full  h-[482px] flex flex-col items-center mt-[20px] rounded-lg  justify-center bg-white ">
                                 <div className="flex flex-row  flex-1 justify-center gap-[32px]">
                                     <div className="flex-1 flex flex-col justify-center items-center">
@@ -307,7 +307,7 @@ const Home = () => {
                             <p className="text-[24px] font-bold">
                                 PREMIUM LINE
                             </p>
-                            <div className="w-[540px]  h-[2px] bg-[#D9D9D9]"></div>
+                            <div className="w-[540px]  h-[2px] bg-[#2C2E35]"></div>
                             <div className="max-w-[638px] w-full  h-[482px] flex flex-col items-center rounded-lg mt-[20px] justify-center bg-white ">
                                 <div className="flex flex-row  flex-1 justify-center gap-[32px]">
                                     <div className="flex-1 flex flex-col justify-center items-center">
@@ -392,7 +392,7 @@ const Home = () => {
                         </div>
                     </Link>
                 </div>
-                <div className="max-w-[1258px] mb-[100px] flex flex-col gap-[28px] items-center justify-center rounded-3xl w-full h-[428px] mt-[120px] mr-[80px] ml-[80px] bg-[#EDEDED]">
+                <div className="max-w-[1258px]  flex flex-col gap-[28px] items-center justify-center rounded-3xl w-full h-[428px] mt-[120px] mr-[80px] ml-[80px] bg-[#EDEDED]">
                     <p className="text-[40px] leading-[1] thick font-extrabold">
                         HOW TO USE
                     </p>
@@ -416,17 +416,51 @@ const Home = () => {
                             <p className="text-[18px] thick">
                                 나만의 커피 스타일링
                             </p>
-                            <p className="mt-[16px] text-[13px]">
+                            <p className="mt-[16px] text-[12px]">
                                 마르모 원액은 우유, 탄산음료, 아이스크림 등과
                                 쉽게 섞여
                             </p>
-                            <p className="text-[13px]">
+                            <p className="text-[12px]">
                                 아이스커피, 핫커피, 라떼, 아포가토까지 다양한
                                 스타일로{' '}
                             </p>
-                            <p className="text-[13px]">즐길 수 있습니다다</p>
+                            <p className="text-[12px]">즐길 수 있습니다</p>
                             <div className="w-[284px] h-[2px] mt-[22px] bg-black"></div>
                         </div>
+                    </div>
+                </div>
+                <div className=" w-full max-w-[1417px] overflow-x-hidden pl-[80px] mt-[120px] mb-[120px]  h-[368px] bg-[#F2F5F1] flex flex-row justify-between items-center">
+                    <div className="flex flex-col max-w-[692px]  items-start  gap-[44px]">
+                        <p className="text-[32px] thick font-semibold">
+                            마지막 한 모금까지, 깊은 여운
+                        </p>
+                        <div className="flex flex-row justify-center items-center gap-[20px]">
+                            <Link href={'/brand'}>
+                                <div className="w-[326px] h-[54px] bg-white border-[2px] rounded-3xl flex flex-row justify-center items-center">
+                                    <p className="text-[20px] font-bold">
+                                        브랜드 철학 더 알아보기 →
+                                    </p>
+                                </div>
+                            </Link>
+                            <Link href={'/items'}>
+                                <div className="w-[326px] h-[54px] bg-white border-[2px] rounded-3xl flex flex-row justify-center items-center">
+                                    <p className="text-[20px] font-bold">
+                                        마르모 커피 구경하기 →
+                                    </p>
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
+
+                    <div className="h-[368px] overflow-hidden">
+                        {' '}
+                        <Image
+                            src="/assets/images/banner.svg"
+                            width={645} // 원하는 비율로 width 지정
+                            height={368} // height도 지정하여 비율을 맞추기
+                            alt="로고 사진"
+                            className="object-cover w-full h-full "
+                        />
                     </div>
                 </div>
             </div>
