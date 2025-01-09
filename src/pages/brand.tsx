@@ -43,14 +43,14 @@ const Brand = () => {
                     </Link>
                 </div>
             </nav>
-            <div className="w-full h-[870px]">
+            <div className="w-full h-[731px]">
                 {' '}
                 <Image
-                    src="/assets/images/brand.svg"
-                    width={1422} // 원하는 비율로 width 지정
-                    height={870} // height도 지정하여 비율을 맞추기
+                    src="/assets/images/2.svg"
+                    width={1415} // 원하는 비율로 width 지정
+                    height={731} // height도 지정하여 비율을 맞추기
                     alt="로고 사진"
-                    className="object-fill w-full h-full"
+                    className="object-cover w-full h-full"
                 />
             </div>
             <div className="mt-[120px] flex flex-col items-center justify-center">
@@ -67,14 +67,14 @@ const Brand = () => {
                         세 가지 철학을 실천합니다.
                     </p>
                 </div>
-                <div className=" mr-[80px] mb-[20px] ml-[80px] min-w-[1257px] h-[4px] bg-[#DEDEDE]"></div>
+                <div className=" mr-[80px] mb-[60px] ml-[80px] min-w-[1257px] h-[4px] bg-[#DEDEDE]"></div>
             </div>
             <div
                 className=" mr-[80px] mb-[80px] ml-[80px] min-w-[1257px] h-[325px]
             flex flex-row justify-center gap-[73px]"
             >
                 <div
-                    className="flex-1 w-full rounded-xl border-b-white border-b-[4px] shadow-xl shadow-[#878787]  h-[325px] bg-[#2C2E35] flex
+                    className="flex-1 w-full rounded-xl border-b-white border-b-[4px] shadow-lg shadow-[#878787]  h-[325px] bg-[#2C2E35] flex
                 flex-col items-center justify-center"
                 >
                     <div className="h-[183px]">
@@ -94,13 +94,13 @@ const Brand = () => {
                             혁신
                         </p>
                     </div>
-                    <div className=" mt-[12px] font-medium text-[16px] w-[240px] h-[50px] rounded-lg bg-[#F0F0F0] shadow-lg flex flex-col items-center justify-center">
+                    <div className=" mt-[12px] font-medium text-[16px] w-[240px] h-[50px] rounded-lg bg-[white] shadow-lg flex flex-col items-center justify-center">
                         <p className="leading-[1]">커피 본연의 맛을 살리는</p>
                         <p className="leading-[1] mt-[2px]">급속 냉각 기술</p>
                     </div>
                 </div>
                 <div
-                    className="flex-1 w-full rounded-xl border-b-white border-b-[4px] shadow-xl shadow-[#878787]  h-[325px] bg-[#2C2E35] flex
+                    className="flex-1 w-full rounded-xl border-b-white border-b-[4px] shadow-lg shadow-[#878787]  h-[325px] bg-[#2C2E35] flex
                 flex-col items-center justify-center"
                 >
                     <div className="h-[183px]">
@@ -120,7 +120,7 @@ const Brand = () => {
                             접근성
                         </p>
                     </div>
-                    <div className=" mt-[12px] font-medium text-[16px] w-[240px] h-[50px] rounded-lg bg-[#F0F0F0] shadow-lg flex flex-col items-center justify-center">
+                    <div className=" mt-[12px] font-medium text-[16px] w-[240px] h-[50px] rounded-lg bg-[white] shadow-lg flex flex-col items-center justify-center">
                         <p className="leading-[1]">언제 어디서나</p>
                         <p className="leading-[1] mt-[2px]">
                             간편하게 즐기는 드립커피
@@ -128,7 +128,7 @@ const Brand = () => {
                     </div>
                 </div>
                 <div
-                    className="flex-1 w-full rounded-xl border-b-white border-b-[4px] shadow-xl shadow-[#878787]  h-[325px] bg-[#2C2E35] flex
+                    className="flex-1 w-full rounded-xl border-b-white border-b-[4px] shadow-lg shadow-[#878787]  h-[325px] bg-[#2C2E35] flex
                 flex-col items-center justify-center"
                 >
                     <div className="h-[183px]">
@@ -148,13 +148,130 @@ const Brand = () => {
                             영속성
                         </p>
                     </div>
-                    <div className=" mt-[12px] font-medium text-[16px] w-[240px] h-[50px] rounded-lg bg-[#F0F0F0] shadow-lg flex flex-col items-center justify-center">
+                    <div className=" mt-[12px] font-medium text-[16px] w-[240px] h-[50px] rounded-lg bg-[white] shadow-lg flex flex-col items-center justify-center">
                         <p className="leading-[1]">
                             대리석의 영구적 가치를 닮은
                         </p>
                         <p className="leading-[1] mt-[2px]">고급스러운 커피</p>
                     </div>
                 </div>{' '}
+            </div>
+            <div className="mt-[40px] mb-[120px] w-full h-[600px] bg-[#FAFAFA] flex flex-col items-center justify-center">
+                <div className="flex  flex-col  items-center justify-center">
+                    <p className="text-[24px] leading-[1] text-[#B0AEA5] font-bold">
+                        WHY MARMO
+                    </p>
+                    <p className="text-[30px] thick leading-[1] mt-[8px] font-extrabold">
+                        마르모 커피가 특별한 이유
+                    </p>
+                </div>
+                <div className="flex flex-row w-full px-[80px] py-[60px] justify-center items-center gap-[40px]">
+                    <div
+                        className="flex-1 w-full bg-white rounded-lg h-[206px] flex-col items-center justify-center
+                    gap-[20px] px-[40px] py-[30px]"
+                    >
+                        <div className="flex flex-row justify-center gap-[20px] ">
+                            <div className="w-[180px] h-[92px]">
+                                <Image
+                                    src="/assets/images/ice.svg"
+                                    width={2} // 원하는 비율로 width 지정
+                                    height={1} // height도 지정하여 비율을 맞추기
+                                    alt="로고 사진"
+                                    className="object-fill w-full h-full"
+                                ></Image>
+                            </div>
+                            <div className="flex flex-col items-start justify-end">
+                                <p className="text-[20px] font-semibold">
+                                    급속 냉각 기술
+                                </p>
+                                <p className="text-[12px] text-[#B0AEA5]">
+                                    (Rapid Cooling Technology)
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            className="mt-[10px]  w-full min-w-[298px]  h-[53px] rounded-md bg-[#FAFAFA]
+                        flex flex-col items-center justify-center"
+                        >
+                            <p className="text-[16px] leading-[1]">
+                                맛과 향을 유지하는
+                            </p>
+                            <p className="text-[16px] leading-[1] mt-[2px]">
+                                마르모만의 혁신적 기술
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        className="flex-1 w-full bg-white rounded-lg h-[206px] flex-col items-center justify-center
+                    gap-[20px] px-[40px] py-[30px]"
+                    >
+                        <div className="flex flex-row justify-center gap-[20px] ">
+                            <div className="w-[180px] h-[92px]">
+                                <Image
+                                    src="/assets/images/intensity.svg"
+                                    width={2} // 원하는 비율로 width 지정
+                                    height={1} // height도 지정하여 비율을 맞추기
+                                    alt="로고 사진"
+                                    className="object-fill w-full h-full"
+                                ></Image>
+                            </div>
+                            <div className="flex flex-col items-start justify-end">
+                                <p className="text-[20px] font-semibold">
+                                    원액 추출 기술
+                                </p>
+                                <p className="text-[12px] text-[#B0AEA5]">
+                                    (High-Intensity Coffee Technology)
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            className="mt-[10px]  w-full min-w-[298px]  h-[53px] rounded-md bg-[#FAFAFA]
+                        flex flex-col items-center justify-center"
+                        >
+                            <p className="text-[16px] leading-[1]">
+                                단 한 방울로도 깊고 진한 커피를
+                            </p>
+                            <p className="text-[16px] leading-[1] mt-[2px]">
+                                즐길 수 있는 마르모만의 기술
+                            </p>
+                        </div>
+                    </div>{' '}
+                    <div
+                        className="flex-1 w-full bg-white rounded-lg h-[206px] flex-col items-center justify-center
+                    gap-[20px] px-[40px] py-[30px]"
+                    >
+                        <div className="flex flex-row justify-center gap-[20px] ">
+                            <div className="w-[180px] h-[92px]">
+                                <Image
+                                    src="/assets/images/gift.svg"
+                                    width={2} // 원하는 비율로 width 지정
+                                    height={1} // height도 지정하여 비율을 맞추기
+                                    alt="로고 사진"
+                                    className="object-fill w-full h-full"
+                                ></Image>
+                            </div>
+                            <div className="flex flex-col items-start justify-end">
+                                <p className="text-[20px] font-semibold">
+                                    선물용 패키지
+                                </p>
+                                <p className="text-[12px] text-[#B0AEA5]">
+                                    (Premium Gift Package)
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            className="mt-[10px]  w-full min-w-[298px]  h-[53px] rounded-md bg-[#FAFAFA]
+                        flex flex-col items-center justify-center"
+                        >
+                            <p className="text-[16px] leading-[1]">
+                                감각적이고 고급스러운 선물로
+                            </p>
+                            <p className="text-[16px] leading-[1] mt-[2px]">
+                                특별한 순간을 완성
+                            </p>
+                        </div>
+                    </div>{' '}
+                </div>
             </div>
 
             {/* <div className="mt-[20px]">
