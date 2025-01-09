@@ -53,6 +53,7 @@ const Brand = () => {
                     className="object-cover w-full h-full"
                 />
             </div>
+
             <div className="mt-[120px] flex flex-col items-center justify-center">
                 <p className="text-[40px] mb-[20px] leading-[1] thick font-extrabold">
                     BRAND VISION
@@ -128,7 +129,7 @@ const Brand = () => {
                     </div>
                 </div>
                 <div
-                    className="flex-1 w-full rounded-xl border-b-white border-b-[4px] shadow-lg shadow-[#878787]  h-[325px] bg-[#2C2E35] flex
+                    className="flex-1 w-full rounded-2xl border-b-white border-b-[4px] shadow-lg shadow-[#878787]  h-[325px] bg-[#2C2E35] flex
                 flex-col items-center justify-center"
                 >
                     <div className="h-[183px]">
@@ -155,6 +156,41 @@ const Brand = () => {
                         <p className="leading-[1] mt-[2px]">고급스러운 커피</p>
                     </div>
                 </div>{' '}
+            </div>
+            <div
+                className=" mt-[80px] mb-[20px] overflow-hidden px-[20px] rounded-2xl mr-[120px] ml-[120px] shadow-lg border-b-[#D9D9D9] border-[4px] min-w-[857px] h-[280px] bg-[#243E45]
+            flex flex-row justify-center items-center"
+            >
+                <div className="h-[232px] mr-[22px]">
+                    {' '}
+                    <Image
+                        src="/assets/images/gree.svg"
+                        width={285} // 원하는 비율로 width 지정
+                        height={252} // height도 지정하여 비율을 맞추기
+                        alt="로고 사진"
+                        className="object-cover w-full h-full"
+                    />
+                </div>
+                <div className="flex flex-col items-end mt-[80px] justify-end h-full">
+                    <Image
+                        src="/assets/images/bottle.svg"
+                        width={127} // 원하는 비율로 width 지정
+                        height={234} // height도 지정하여 비율을 맞추기
+                        alt="로고 사진"
+                        className="object-cover w-full h-full"
+                    />
+                </div>
+                <div className="ml-[120px] flex flex-col  text-[20px] text-white items-start justify-center">
+                    <p className="leading-[1]  mb-[48px]">
+                        마르모(Marmo)는 이탈리아어로 '대리석'을 뜻합니다.{' '}
+                    </p>
+                    <p className="leading-[1]  mb-[8px]">
+                        대리석이 시간이 지나도 본연의 품격과 견고함을 잃지 않듯,
+                    </p>
+                    <p className="leading-[1]">
+                        변함없는 품질과 특별한 순간을 선사하겠습니다.{' '}
+                    </p>
+                </div>
             </div>
             <div className="mt-[40px] mb-[120px] w-full h-[600px] bg-[#FAFAFA] flex flex-col items-center justify-center">
                 <div className="flex  flex-col  items-center justify-center">
@@ -290,6 +326,77 @@ const Brand = () => {
                     alt="로고 사진"
                     className="object-fill w-full h-full"
                 ></Image>
+            </div>
+            <div className="mt-[20px] px-[80px] mb-[180px] flex flex-row max-w-full justify-center items-center gap-[29px] ">
+                <div
+                    className="flex-1 min-w-[399px] w-auto h-[255px] border-b-[3px] border-b-[#2C2E35] items-center justify-center rounded-2xl bg-[#D7D6D2]
+                flex flex-col"
+                >
+                    <div className="flex flex-col items-center  gap-[17px]">
+                        <div className="flex h-[48px]">
+                            <Image
+                                src="/assets/images/cong.svg"
+                                width={41} // 원하는 비율로 width 지정
+                                height={48} // height도 지정하여 비율을 맞추기
+                                alt="로고 사진"
+                                className="object-fill w-full h-full"
+                            />
+                        </div>
+                        <p className="text-[26px] font-semibold">
+                            최상급 원두의 깊은 풍미
+                        </p>
+                        <div className="flex flex-col font-medium text-[19px] justify-center items-center gap-[-2px]">
+                            <p>특허 출원 추출 기술과 엄선된 원두로</p>
+                            <p>풍미를 완벽하게 보존</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    className="flex-1 min-w-[399px] h-[255px] border-b-[3px] border-b-[#2C2E35] items-center justify-center rounded-2xl bg-[#D7D6D2]
+                flex flex-col"
+                >
+                    <div className="flex flex-col items-center  gap-[17px]">
+                        <div className="flex h-[46px]">
+                            <Image
+                                src="/assets/images/clock.svg"
+                                width={47} // 원하는 비율로 width 지정
+                                height={46} // height도 지정하여 비율을 맞추기
+                                alt="로고 사진"
+                                className="object-fill w-full h-full"
+                            />
+                        </div>
+                        <p className="text-[26px] font-semibold">
+                            드립커피를 누구나 손쉽게
+                        </p>
+                        <div className="flex flex-col font-medium text-[19px] justify-center items-center gap-[-2px]">
+                            <p>물만 부으면 완성되는,</p>
+                            <p>누구나 쉽게 만드는 드립커피</p>
+                        </div>
+                    </div>
+                </div>{' '}
+                <div
+                    className="flex-1 min-w-[399px] h-[255px] border-b-[3px] border-b-[#2C2E35] items-center justify-center rounded-2xl bg-[#D7D6D2]
+                flex flex-col"
+                >
+                    <div className="flex flex-col items-center  gap-[17px]">
+                        <div className="flex h-[55px]">
+                            <Image
+                                src="/assets/images/diamond.svg"
+                                width={66} // 원하는 비율로 width 지정
+                                height={55} // height도 지정하여 비율을 맞추기
+                                alt="로고 사진"
+                                className="object-fill w-full h-full"
+                            />
+                        </div>
+                        <p className="text-[26px] font-semibold">
+                            일상의 특별한 순간
+                        </p>
+                        <div className="flex flex-col font-medium text-[19px] justify-center items-center gap-[-2px]">
+                            <p>대리석처럼 영구적이고 고급스러운,</p>
+                            <p>일상 속 특별함 선사</p>
+                        </div>
+                    </div>
+                </div>{' '}
             </div>
             <div className=" mr-[80px] ml-[80px] mb-[80px] min-w-[1257px] h-[2px] bg-[#D9D9D9]"></div>
             <div className="flex flex-col text-[#D9D9D9] items-start  w-full px-[80px]">

@@ -90,10 +90,10 @@ const Home = () => {
                     </p>
                     <div className="mt-[20px] mr-[80px] ml-[80px] min-w-[1257px] h-[4px] bg-[#DEDEDE]"></div>
                 </div>
-                <div className="mt-[20px] flex flex-row max-w-full justify-center items-center gap-[29px] ">
+                <div className="mt-[20px] px-[80px]  flex flex-row max-w-full justify-center items-center gap-[29px] ">
                     <div
                         className="flex-1 min-w-[399px] w-auto h-[255px] border-b-[3px] border-b-[#2C2E35] items-center justify-center rounded-2xl bg-[#D7D6D2]
-                flex flex-col"
+                                flex flex-col"
                     >
                         <div className="flex flex-col items-center  gap-[17px]">
                             <div className="flex h-[48px]">
@@ -116,7 +116,7 @@ const Home = () => {
                     </div>
                     <div
                         className="flex-1 min-w-[399px] h-[255px] border-b-[3px] border-b-[#2C2E35] items-center justify-center rounded-2xl bg-[#D7D6D2]
-                flex flex-col"
+                                flex flex-col"
                     >
                         <div className="flex flex-col items-center  gap-[17px]">
                             <div className="flex h-[46px]">
@@ -139,7 +139,7 @@ const Home = () => {
                     </div>{' '}
                     <div
                         className="flex-1 min-w-[399px] h-[255px] border-b-[3px] border-b-[#2C2E35] items-center justify-center rounded-2xl bg-[#D7D6D2]
-                flex flex-col"
+                                flex flex-col"
                     >
                         <div className="flex flex-col items-center  gap-[17px]">
                             <div className="flex h-[55px]">
@@ -161,6 +161,7 @@ const Home = () => {
                         </div>
                     </div>{' '}
                 </div>
+
                 <Link href={'/brand'}>
                     <div className="flex mb-[100px]  justify-center items-center mt-[40px] border-[2px]  border-[#D9D9D9] rounded-3xl  w-[399px] h-[50px] ">
                         <p className="text-[20px] font-bold text-[#2C2E35]">
@@ -168,6 +169,43 @@ const Home = () => {
                         </p>
                     </div>
                 </Link>
+
+                <div
+                    className=" mt-[2px] mb-[120px] overflow-hidden px-[20px] rounded-2xl mr-[120px] ml-[120px] shadow-lg border-b-[#D9D9D9] border-[4px] w-[1177px] h-[280px] bg-[#243E45]
+                            flex flex-row justify-center items-center"
+                >
+                    <div className="h-[232px] mr-[22px]">
+                        {' '}
+                        <Image
+                            src="/assets/images/gree.svg"
+                            width={285} // 원하는 비율로 width 지정
+                            height={252} // height도 지정하여 비율을 맞추기
+                            alt="로고 사진"
+                            className="object-cover w-full h-full"
+                        />
+                    </div>
+                    <div className="flex flex-col items-end mt-[80px] justify-end h-full">
+                        <Image
+                            src="/assets/images/bottle.svg"
+                            width={127} // 원하는 비율로 width 지정
+                            height={234} // height도 지정하여 비율을 맞추기
+                            alt="로고 사진"
+                            className="object-cover w-full h-full"
+                        />
+                    </div>
+                    <div className="ml-[120px] flex flex-col  text-[20px] text-white items-start justify-center">
+                        <p className="leading-[1]  mb-[48px]">
+                            마르모(Marmo)는 이탈리아어로 '대리석'을 뜻합니다.{' '}
+                        </p>
+                        <p className="leading-[1]  mb-[8px]">
+                            대리석이 시간이 지나도 본연의 품격과 견고함을 잃지
+                            않듯,
+                        </p>
+                        <p className="leading-[1]">
+                            변함없는 품질과 특별한 순간을 선사하겠습니다.{' '}
+                        </p>
+                    </div>
+                </div>
                 <div className="arch w-full h-[1018px] flex flex-col items-center justify-center">
                     <div className="mt-[60px] flex flex-col gap-[22px] items-center justify-center">
                         <div className="flex  h-[36px]">
