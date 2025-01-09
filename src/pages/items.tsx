@@ -36,12 +36,12 @@ const Items = () => {
                     </Link>
                 </div>
             </nav>
-            <div className="w-full h-[731px] mb-[100px]">
+            <div className="w-full h-[732px] mb-[100px]">
                 {' '}
                 <Image
-                    src="/assets/images/1.svg"
-                    width={1415} // 원하는 비율로 width 지정
-                    height={731} // height도 지정하여 비율을 맞추기
+                    src="/assets/images/products.svg"
+                    width={1419} // 원하는 비율로 width 지정
+                    height={732} // height도 지정하여 비율을 맞추기
                     alt="로고 사진"
                     className="object-cover w-full h-full"
                 />

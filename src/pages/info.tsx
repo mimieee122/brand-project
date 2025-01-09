@@ -1,17 +1,16 @@
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
-import { motion } from 'framer-motion'
 
 const Info = () => {
-    const nameVariants = {
-        hidden: { opacity: 0, x: -100 },
-        visible: {
-            opacity: 1,
-            x: 0,
-            transition: { duration: 1, delay: 0.5 },
-        },
-    }
+    // const nameVariants = {
+    //     hidden: { opacity: 0, x: -100 },
+    //     visible: {
+    //         opacity: 1,
+    //         x: 0,
+    //         transition: { duration: 1, delay: 0.5 },
+    //     },
+    // }
     return (
         <>
             {' '}
@@ -45,7 +44,17 @@ const Info = () => {
                     </Link>
                 </div>
             </nav>
-            <div className="flex flex-row  justify-between">
+            <div className="w-full h-[731px]">
+                {' '}
+                <Image
+                    src="/assets/images/last.svg"
+                    width={1415} // 원하는 비율로 width 지정
+                    height={732} // height도 지정하여 비율을 맞추기
+                    alt="로고 사진"
+                    className="object-cover w-full h-full"
+                />
+            </div>
+            {/* <div className="flex flex-row  justify-between">
                 <div className="  flex flex-col mt-8 ml-5  items-start justify-start ">
                     <div className=" relative flex mb-[20px] flex-col gap-0 items-start w-[600px] h-[350px]">
                         <Image
@@ -54,22 +63,6 @@ const Info = () => {
                             alt="회색 이미지"
                             className="object-fill "
                         />
-                    </div>
-                    <div>
-                        <motion.div
-                            initial="hidden"
-                            animate="visible"
-                            variants={nameVariants}
-                            className="flex flex-col gap-[10px]  text-left text-[90px]"
-                        >
-                            <span className="name1  text-[#544C4C]  text-[35px]">
-                                THE PROJECT :{' '}
-                            </span>
-                            <div className="flex flex-col name2 leading-none gap-[0px] text-[#544C4C] ">
-                                <span className="p-0">MARMO</span>
-                                <span className="p-0 mt-0">COFFEE</span>
-                            </div>
-                        </motion.div>
                     </div>
                 </div>
                 <div className="flex flex-col w-1/2 mt-10 mr-10 h-[600px] gap-[30px] items-center">
@@ -118,7 +111,7 @@ const Info = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }

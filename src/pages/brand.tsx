@@ -77,13 +77,13 @@ const Brand = () => {
                     className="flex-1 w-full rounded-xl border-b-white border-b-[4px] shadow-lg shadow-[#878787]  h-[325px] bg-[#2C2E35] flex
                 flex-col items-center justify-center"
                 >
-                    <div className="h-[183px]">
+                    <div className="h-[183px] ">
                         <Image
                             src="/assets/images/Vector.svg"
                             width={183} // 원하는 비율로 width 지정
                             height={183} // height도 지정하여 비율을 맞추기
                             alt="로고 사진"
-                            className="object-fill w-full h-full"
+                            className="object-fill  w-full h-full"
                         ></Image>
                     </div>
                     <div className="flex flex-row w-[250px] justify-center gap-[8px]">
@@ -109,7 +109,7 @@ const Brand = () => {
                             width={183} // 원하는 비율로 width 지정
                             height={183} // height도 지정하여 비율을 맞추기
                             alt="로고 사진"
-                            className="object-fill w-full h-full"
+                            className="object-fill shadow-white w-full h-full"
                         ></Image>
                     </div>
                     <div className="flex flex-row w-[250px] justify-center gap-[8px]">
@@ -272,6 +272,24 @@ const Brand = () => {
                         </div>
                     </div>{' '}
                 </div>
+            </div>
+            <div
+                className="mb-[120px] flex flex-row justify-center
+            items-center"
+            >
+                <p className="text-[22px] font-semibold text-[#B0AEA5]">
+                    마르모의 특별함은 여기서 멈추지 않습니다. 지난 1년간 우리가
+                    걸어온 길을 확인하세요.
+                </p>
+            </div>
+            <div className="w-full h-[1000px]">
+                <Image
+                    src="/assets/images/accomplish.svg"
+                    width={1410} // 원하는 비율로 width 지정
+                    height={1000} // height도 지정하여 비율을 맞추기
+                    alt="로고 사진"
+                    className="object-fill w-full h-full"
+                ></Image>
             </div>
 
             {/* <div className="mt-[20px]">
