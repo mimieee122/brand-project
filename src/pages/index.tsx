@@ -194,7 +194,7 @@ const Home = () => {
                     </div>
                     <div className="ml-[120px] flex flex-col  text-[20px] text-white items-start justify-center">
                         <p className="leading-[1]  mb-[48px]">
-                            마르모(Marmo)는 이탈리아어로 '대리석'을 뜻합니다.
+                            마르모(Marmo)는 이탈리아어로 대리석을 뜻합니다.
                         </p>
                         <p className="leading-[1]  mb-[8px]">
                             대리석이 시간이 지나도 본연의 품격과 견고함을 잃지
@@ -266,7 +266,7 @@ const Home = () => {
                                         <p className="text-[12px]  text-[#787878]">
                                             에티오피아(Ethiopia)
                                         </p>
-                                    </div>{' '}
+                                    </div>
                                     <div className="flex-1 flex flex-col justify-center items-center">
                                         <div className="flex  h-[132px]">
                                             <Image
@@ -319,7 +319,7 @@ const Home = () => {
                                         <p className="text-[12px]  text-[#787878]">
                                             코스타리카(Coasta Rica)
                                         </p>
-                                    </div>{' '}
+                                    </div>
                                     <div className="flex-1 flex flex-col justify-center items-center">
                                         <div className="flex  h-[132px]">
                                             <Image
@@ -416,9 +416,9 @@ const Home = () => {
                                         <p className="text-[12px]  text-[#787878]">
                                             파나마 게이샤
                                         </p>
-                                    </div>{' '}
+                                    </div>
                                 </div>
-                            </div>{' '}
+                            </div>
                         </div>
                     </div>
                     <Link href={'/items'}>
@@ -459,7 +459,7 @@ const Home = () => {
                             </p>
                             <p className="text-[12px]">
                                 아이스커피, 핫커피, 라떼, 아포가토까지 다양한
-                                스타일로{' '}
+                                스타일로
                             </p>
                             <p className="text-[12px]">즐길 수 있습니다</p>
                             <div className="w-[284px] h-[2px] mt-[22px] bg-black"></div>
