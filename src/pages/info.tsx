@@ -44,7 +44,7 @@ const Info = () => {
                     </Link>
                 </div>
             </nav>
-            <div className="w-full h-[731px]">
+            <div className="w-full mb-[120px] h-[731px]">
                 {' '}
                 <Image
                     src="/assets/images/last.svg"
@@ -53,6 +53,41 @@ const Info = () => {
                     alt="로고 사진"
                     className="object-cover w-full h-full"
                 />
+            </div>
+            <div className="flex w-full mb-[140px] flex-row justify-start items-start ">
+                <div className=" h-[500px] ml-[120px]">
+                    <Image
+                        src="/assets/images/info.svg"
+                        width={616} // 원하는 비율로 width 지정
+                        height={768} // height도 지정하여 비율을 맞추기
+                        alt="로고 사진"
+                        className="object-fill w-full h-full"
+                    />
+                </div>
+            </div>
+            <div className=" mr-[80px] ml-[80px] mb-[80px] min-w-[1257px] h-[2px] bg-[#D9D9D9]"></div>
+            <div className="flex flex-col text-[#D9D9D9] items-start  w-full px-[80px]">
+                <p className="text-[14px] mb-[20px]">
+                    Ⓒ 2025 SUPERBA. All Rights Reserved.
+                </p>
+                <p className="text-[14px] mb-[20px]">COMPANY INFO</p>
+                <p className="text-[14px]">상호 : 수페르바 l 대표자 : 김진표</p>
+                <p className="text-[14px]">
+                    전화 : 070-4114-1294 l 010-6861-1294
+                </p>
+                <p className="text-[14px]">사업자 등록번호: 554-21-01985</p>
+                <p className="text-[14px]">통신판매업: 2024-대구중구-0872</p>
+                <p className="text-[14px]">
+                    주소 : 41933 대구광역시 중구 서성로 4 (계산동2가) 1층
+                    수페르바
+                </p>
+                <p className="text-[14px]">
+                    문의 및 제안 : superba1294@naver.com
+                </p>
+                <p className="text-[14px] mb-[40px]">Instagram @marmocoffee</p>
+                <p className="text-[14px] mb-[40px]">
+                    Designed and Built by MISEONG CHO
+                </p>
             </div>
             {/* <div className="flex flex-row  justify-between">
                 <div className="  flex flex-col mt-8 ml-5  items-start justify-start ">
