@@ -34,7 +34,7 @@ const Info = () => {
 
                 <div className="flex flex-row  text-[#2C2E35] pr-[80px]  text-[24px] bar2 gap-[80px]">
                     <Link href={'/brand'}>
-                        <button className="button">ABOUT</button>
+                        <button className="button">BRAND</button>
                     </Link>
                     <Link href={'items'}>
                         <button className="button">PRODUCTS</button>
