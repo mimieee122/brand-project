@@ -155,14 +155,13 @@ const Brand = () => {
                         </p>
                         <p className="leading-[1] mt-[2px]">고급스러운 커피</p>
                     </div>
-                </div>{' '}
+                </div>
             </div>
             <div
-                className=" mt-[80px] mb-[20px] overflow-hidden px-[20px] rounded-2xl mr-[120px] ml-[120px] shadow-lg border-b-[#D9D9D9] border-[4px] min-w-[857px] h-[280px] bg-[#243E45]
+                className=" mt-[80px] mb-[20px] overflow-hidden px-[20px] rounded-3xl mr-[120px] ml-[120px] shadow-lg border-b-[#D9D9D9] border-[4px] min-w-[857px] h-[280px] bg-[#243E45]
             flex flex-row justify-center items-center"
             >
                 <div className="h-[232px] mr-[22px]">
-                    {' '}
                     <Image
                         src="/assets/images/gree.svg"
                         width={285} // 원하는 비율로 width 지정
@@ -182,13 +181,13 @@ const Brand = () => {
                 </div>
                 <div className="ml-[120px] flex flex-col  text-[20px] text-white items-start justify-center">
                     <p className="leading-[1]  mb-[48px]">
-                        마르모(Marmo)는 이탈리아어로 '대리석'을 뜻합니다.{' '}
+                        마르모(Marmo)는 이탈리아어로 '대리석'을 뜻합니다.
                     </p>
                     <p className="leading-[1]  mb-[8px]">
                         대리석이 시간이 지나도 본연의 품격과 견고함을 잃지 않듯,
                     </p>
                     <p className="leading-[1]">
-                        변함없는 품질과 특별한 순간을 선사하겠습니다.{' '}
+                        변함없는 품질과 특별한 순간을 선사하겠습니다.
                     </p>
                 </div>
             </div>
@@ -271,7 +270,7 @@ const Brand = () => {
                                 즐길 수 있는 마르모만의 기술
                             </p>
                         </div>
-                    </div>{' '}
+                    </div>
                     <div
                         className="flex-1 w-full bg-white rounded-lg h-[206px] flex-col items-center justify-center
                     gap-[20px] px-[40px] py-[30px]"
@@ -306,7 +305,7 @@ const Brand = () => {
                                 특별한 순간을 완성
                             </p>
                         </div>
-                    </div>{' '}
+                    </div>
                 </div>
             </div>
             <div
