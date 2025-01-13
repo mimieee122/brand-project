@@ -75,29 +75,29 @@ const Home = () => {
                         />
                     </div>
                 </div>
-                <div className="flex flex-col w-full px-[80px] 2xl:px-[160px] justify-center items-center mt-[16px] h-[260px] ">
+                <div className="flex flex-col w-full px-[80px] 2xl:px-[160px] justify-center items-center mt-[16px] h-[260px] 2xl:h-[400px] ">
                     <div className="flex flex-col items-center gap-[-8px] ">
-                        <p className="text-[40px] font-extrabold leading-[1.2] ">
+                        <p className="text-[40px] 2xl:text-[50px] font-extrabold leading-[1.2] ">
                             ABOUT
                         </p>
-                        <p className="text-[28px] font-bold leading-[1.2] ">
+                        <p className="text-[28px] 2xl:text-[36px] font-bold leading-[1.2] ">
                             THE BRAND
                         </p>
                     </div>
                     <div className="w-full mt-[20px]   h-[4px] bg-[#DEDEDE]"></div>
-                    <p className="mt-[20px] text-[#2C2E35] text-[24px] font-semibold">
+                    <p className="mt-[20px] 2xl:mt-[32px] 2xl:text-[32px] xl:text-[26px] text-[#2C2E35] text-[24px] font-semibold">
                         마르모 커피는 프리미엄 드립커피를 누구나 일상에서 쉽게
                         경험할 수 있도록 탄생한, 혁신적인 커피 브랜드입니다
                     </p>
-                    <div className="mt-[20px]  px-[80px] w-full h-[4px] bg-[#DEDEDE]"></div>
+                    <div className="mt-[20px] 2xl:mt-[32px]  px-[80px] w-full h-[4px] bg-[#DEDEDE]"></div>
                 </div>
-                <div className="mt-[20px] w-full px-[80px] 2xl:px-[160px] mb-[40px] flex flex-row max-w-full justify-center items-center gap-[29px] ">
+                <div className="mt-[20px]  w-full px-[80px] 2xl:px-[160px] mb-[40px] flex flex-row max-w-full justify-center items-center gap-[29px] ">
                     <div
                         className="flex-1  w-full h-[255px] border-b-[3px] border-b-[#2C2E35] items-center justify-center rounded-2xl bg-[#D7D6D2]
                               flex flex-col"
                     >
                         <div className="flex flex-col items-center  gap-[17px]">
-                            <div className="flex h-[48px]">
+                            <div className="flex h-[48px] 2xl:h-[58px]">
                                 <Image
                                     src="/assets/images/cong.svg"
                                     width={41} // 원하는 비율로 width 지정
@@ -106,7 +106,7 @@ const Home = () => {
                                     className="object-fill w-full h-full"
                                 />
                             </div>
-                            <p className="text-[26px] font-semibold">
+                            <p className="text-[26px] 2xl:text-[30px] font-semibold">
                                 최상급 원두의 깊은 풍미
                             </p>
                             <div className="flex flex-col font-medium text-[19px] 2xl:text-[22px] justify-center items-center gap-[-2px]">
@@ -120,7 +120,7 @@ const Home = () => {
                               flex flex-col"
                     >
                         <div className="flex flex-col items-center  gap-[17px]">
-                            <div className="flex h-[46px]">
+                            <div className="flex h-[46px] 2xl:h-[60px]">
                                 <Image
                                     src="/assets/images/clock.svg"
                                     width={47} // 원하는 비율로 width 지정
@@ -129,7 +129,7 @@ const Home = () => {
                                     className="object-fill w-full h-full"
                                 />
                             </div>
-                            <p className="text-[26px] font-semibold">
+                            <p className="text-[26px] 2xl:text-[30px] font-semibold">
                                 드립커피를 누구나 손쉽게
                             </p>
                             <div className="flex flex-col font-medium text-[19px] 2xl:text-[22px]  justify-center items-center gap-[-2px]">
@@ -143,7 +143,7 @@ const Home = () => {
                               flex flex-col"
                     >
                         <div className="flex flex-col items-center  gap-[17px]">
-                            <div className="flex h-[55px]">
+                            <div className="flex h-[55px] 2xl:h-[60px]">
                                 <Image
                                     src="/assets/images/diamond.svg"
                                     width={66} // 원하는 비율로 width 지정
@@ -152,7 +152,7 @@ const Home = () => {
                                     className="object-fill w-full h-full"
                                 />
                             </div>
-                            <p className="text-[26px] font-semibold">
+                            <p className="text-[26px] 2xl:text-[30px] font-semibold">
                                 일상의 특별한 순간
                             </p>
                             <div className="flex flex-col font-medium text-[19px] 2xl:text-[22px]  justify-center items-center gap-[-2px]">
@@ -162,7 +162,6 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-
                 <Link href={'/brand'}>
                     <div className="flex mb-[100px]  justify-center items-center  border-[2px]  border-[#D9D9D9] rounded-3xl  w-[399px] 2xl:w-[540px] 2xl:h-[60px] h-[50px] ">
                         <p className="text-[20px] 2xl:text-[24px] font-bold text-[#2C2E35]">
@@ -170,7 +169,6 @@ const Home = () => {
                         </p>
                     </div>
                 </Link>
-
                 <div className="flex flex-row justify-center">
                     <div
                         className=" px-[60px]   mb-[100px] overflow-hidden  rounded-3xl shadow-lg border-b-[#D9D9D9] border-[4px] min-w-[1177px] h-[280px] 2xl:h-[380px] bg-[#243E45]
@@ -194,7 +192,7 @@ const Home = () => {
                                 className="object-cover w-full h-full"
                             />
                         </div>
-                        <div className="ml-[120px] flex flex-col  text-[20px] 2xl:text-[24px] text-white items-start justify-center">
+                        <div className="ml-[120px] flex flex-col  text-[20px] 2xl:text-[28px] text-white items-start justify-center">
                             <p className="leading-[1]  mb-[48px]">
                                 마르모(Marmo)는 이탈리아로 대리석을 뜻합니다.
                             </p>
@@ -208,7 +206,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className="arch w-full mb-[180px] h-[1018px] flex flex-col items-center justify-center">
+                <div className="arch w-full mb-[100px] h-[1018px] flex flex-col items-center justify-center">
                     <div className="mt-[60px] flex flex-col gap-[22px] items-center justify-center">
                         <div className="flex  h-[36px] 2xl:h-[50px]">
                             <Image
@@ -432,17 +430,17 @@ const Home = () => {
                         </div>
                     </Link>
                 </div>
-                <div className="max-w-[1258px]  flex flex-col gap-[28px] items-center justify-center rounded-3xl w-full h-[428px]  mr-[80px] ml-[80px] bg-[#EDEDED]">
-                    <p className="text-[40px] leading-[1] thick font-extrabold">
+                <div className="max-w-[1258px] 2xl:max-w-[1600px]  flex flex-col gap-[28px] items-center justify-center rounded-3xl w-full h-[428px] 2xl:h-[500px]  mr-[80px] ml-[80px] bg-[#EDEDED]">
+                    <p className="text-[40px] 2xl:text-[44px] leading-[1] thick font-extrabold">
                         HOW TO USE
                     </p>
-                    <p className="  text-[20px] font-semibold">
+                    <p className="  text-[20px] 2xl:text-[28px] font-semibold">
                         마르모 커피 1: 물 4의 비율로, 마르모 커피 50ml와 물
                         200ml를 섞으면 고급 드립 커피가 완성됩니다
                     </p>
                     <div className="w-full flex flex-row justify-center items-center">
                         <div className="flex-1"></div>
-                        <div className="flex-1 h-[161px]">
+                        <div className="flex-1 h-[161px] 2xl:h-[200px]">
                             <Image
                                 src="/assets/images/use.svg"
                                 width={289} // 원하는 비율로 width 지정
@@ -451,21 +449,23 @@ const Home = () => {
                                 className="object-fill rounded-lg w-full h-full"
                             />
                         </div>
-                        <div className="flex-1 flex-col gap-[22px] items-start  justify-center">
-                            <div className="w-[284px] h-[2px] mb-[22px]  bg-black"></div>
-                            <p className="text-[18px] thick">
+                        <div className="flex-1 flex-col gap-[22px] 2xl:gap-[32px] items-start  justify-center">
+                            <div className="w-[284px] 2xl:w-[400px] h-[2px] mb-[22px]  bg-black"></div>
+                            <p className="text-[18px] 2xl:text-[22px] thick">
                                 나만의 커피 스타일링
                             </p>
-                            <p className="mt-[16px] text-[12px]">
+                            <p className="mt-[16px] text-[12px] 2xl:text-[16px]">
                                 마르모 원액은 우유, 탄산음료, 아이스크림 등과
                                 쉽게 섞여
                             </p>
-                            <p className="text-[12px]">
+                            <p className="text-[12px] 2xl:text-[16px]">
                                 아이스커피, 핫커피, 라떼, 아포가토까지 다양한
                                 스타일로
                             </p>
-                            <p className="text-[12px]">즐길 수 있습니다</p>
-                            <div className="w-[284px] h-[2px] mt-[22px] bg-black"></div>
+                            <p className="text-[12px] 2xl:text-[16px]">
+                                즐길 수 있습니다
+                            </p>
+                            <div className="w-[284px] 2xl:w-[400px] h-[2px] mt-[22px] bg-black"></div>
                         </div>
                     </div>
                 </div>
@@ -503,7 +503,7 @@ const Home = () => {
                         />
                     </div>
                 </div>
-                <div className="mt-[20px] mr-[80px] ml-[80px] mb-[80px] min-w-[1257px] h-[2px] bg-[#D9D9D9]"></div>
+                <div className="w-full mt-[20px]  mb-[80px]  h-[1px] bg-[#DEDEDE]"></div>{' '}
                 <div className="flex flex-col text-[#D9D9D9] items-start  w-full px-[80px]">
                     <p className="text-[14px] mb-[20px]">
                         Ⓒ 2025 SUPERBA. All Rights Reserved.
