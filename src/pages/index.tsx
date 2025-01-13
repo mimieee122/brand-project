@@ -23,7 +23,7 @@ const Home = () => {
 
     return (
         <div>
-            <nav className="flex flex-row justify-between  h-[60px] items-center  ">
+            <nav className="flex flex-row justify-between w-full  h-[60px] items-center  ">
                 {/* <Link href={'/'}>
                         <button className="text-[#544C4C] button bar1 text-[35px]">
                             MÁRMO
@@ -53,7 +53,7 @@ const Home = () => {
                     </Link>
                 </div>
             </nav>
-            <div className="flex flex-col overflow-hidden items-center  max-w-full overflow-y-auto ">
+            <div className="flex flex-col overflow-hidden items-center w-full overflow-y-auto ">
                 <div className="w-full h-[400px]   flex flex-row items-center justify-between bg-[#DFE3E3]">
                     <div className="flex pl-[80px] h-[340px]">
                         <Image
@@ -61,6 +61,7 @@ const Home = () => {
                             width={296.45} // 원하는 비율로 width 지정
                             height={340} // height도 지정하여 비율을 맞추기
                             alt="로고 사진"
+                            layout="responsive"
                             className="object-fill w-full h-full"
                         />
                     </div>
@@ -74,7 +75,7 @@ const Home = () => {
                         />
                     </div>
                 </div>
-                <div className="flex flex-col  justify-center items-center mt-[16px] h-[260px] ">
+                <div className="flex flex-col w-full px-[80px]  justify-center items-center mt-[16px] h-[260px] ">
                     <div className="flex flex-col items-center gap-[-8px] ">
                         <p className="text-[40px] font-extrabold leading-[1.2] ">
                             ABOUT
@@ -83,16 +84,16 @@ const Home = () => {
                             THE BRAND
                         </p>
                     </div>
-                    <div className="mt-[20px] mr-[80px] ml-[80px] min-w-[1257px] h-[4px] bg-[#DEDEDE]"></div>
+                    <div className="mt-[20px] w-full   h-[4px] bg-[#DEDEDE]"></div>
                     <p className="mt-[20px] text-[#2C2E35] text-[24px] font-semibold">
                         마르모 커피는 프리미엄 드립커피를 누구나 일상에서 쉽게
                         경험할 수 있도록 탄생한, 혁신적인 커피 브랜드입니다
                     </p>
-                    <div className="mt-[20px] mr-[80px] ml-[80px] min-w-[1257px] h-[4px] bg-[#DEDEDE]"></div>
+                    <div className="mt-[20px]  px-[80px] w-full h-[4px] bg-[#DEDEDE]"></div>
                 </div>
-                <div className="mt-[20px] px-[80px]  flex flex-row max-w-full justify-center items-center gap-[29px] ">
+                <div className="mt-[20px] w-full px-[80px]  flex flex-row  justify-center items-center gap-[29px] ">
                     <div
-                        className="flex-1 min-w-[399px] w-auto h-[255px] border-b-[3px] border-b-[#2C2E35] items-center justify-center rounded-2xl bg-[#D7D6D2]
+                        className="flex-1 min-w-[399px] w-full   h-[255px] border-b-[3px] border-b-[#2C2E35] items-center justify-center rounded-2xl bg-[#D7D6D2]
                                 flex flex-col"
                     >
                         <div className="flex flex-col items-center  gap-[17px]">
@@ -115,7 +116,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div
-                        className="flex-1 min-w-[399px] h-[255px] border-b-[3px] border-b-[#2C2E35] items-center justify-center rounded-2xl bg-[#D7D6D2]
+                        className="flex-1 min-w-[399px]  w-full h-[255px] border-b-[3px] border-b-[#2C2E35] items-center justify-center rounded-2xl bg-[#D7D6D2]
                                 flex flex-col"
                     >
                         <div className="flex flex-col items-center  gap-[17px]">
@@ -138,7 +139,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div
-                        className="flex-1 min-w-[399px] h-[255px] border-b-[3px] border-b-[#2C2E35] items-center justify-center rounded-2xl bg-[#D7D6D2]
+                        className="flex-1 min-w-[399px] w-full  h-[255px] border-b-[3px] border-b-[#2C2E35] items-center justify-center rounded-2xl bg-[#D7D6D2]
                                 flex flex-col"
                     >
                         <div className="flex flex-col items-center  gap-[17px]">
