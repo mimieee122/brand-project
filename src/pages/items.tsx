@@ -47,7 +47,7 @@ const Items = () => {
             <div className="mt-[120px] flex flex-col items-center justify-center">
                 <div className=" mr-[80px] ml-[80px] min-w-[1257px] h-[2px] bg-[#DEDEDE]"></div>
                 <div className="mt-[30px] mb-[30px] flex flex-col justify-center items-center">
-                    <p className="leading-[1] text-[24px]">
+                    <p className="leading-[1] text-[24px] 2xl:text-[28px] 2xl:font-bold">
                         마르모 커피는 커피의 라인별 특성에 맞는 카테고리를
                         대리석별 텍스처와 이미지의 매칭을 통해 표현합니다.
                     </p>
@@ -56,7 +56,7 @@ const Items = () => {
             </div>
             <div className="arch w-full mb-[180px] h-[1018px] flex flex-col items-center justify-center">
                 <div className="mt-[60px] flex flex-col gap-[22px] items-center justify-center">
-                    <div className="flex  h-[36px]">
+                    <div className="flex  h-[36px] 2xl:h-[50px]">
                         <Image
                             src="/assets/images/fl.svg"
                             width={105} // 원하는 비율로 width 지정
@@ -66,7 +66,7 @@ const Items = () => {
                         />
                     </div>
                     <div className="flex flex-col  items-center justify-center">
-                        <p className="text-[40px] leading-[1] thick font-extrabold">
+                        <p className="text-[40px] 2xl:text-[54px] 2xl:font-bold leading-[1] thick font-extrabold">
                             SPECIALTY COFFEE
                         </p>
                         <p className="text-[24px] pt-[8px] leading-[1] font-bold text-[#D9D9D9]">
@@ -76,10 +76,12 @@ const Items = () => {
                 </div>
                 <div className="mt-[60px] w-full flex flex-row gap-[16px] justify-center ">
                     <div className="flex w-1/2 flex-col ml-[80px] h-[555px] gap-[22px] justify-center items-center">
-                        <p className="text-[24px] font-bold">ORIGINAL LINE</p>
-                        <div className="w-[540px]   h-[2px] bg-[#2C2E35]"></div>
-                        <div className="max-w-[638px] w-full  h-[482px] flex flex-col items-center mt-[20px] rounded-lg  justify-center bg-white ">
-                            <div className="flex flex-row  flex-1 justify-center gap-[32px]">
+                        <p className="text-[24px] 2xl:text-[32px] font-bold">
+                            ORIGINAL LINE
+                        </p>
+                        <div className="w-[540px] 2xl:w-[840px]   h-[4px] bg-[#2C2E35]"></div>
+                        <div className="max-w-[840px] w-full  h-[482px] 2xl:h-[840px] flex flex-col items-center mt-[20px] rounded-lg  justify-center bg-white ">
+                            <div className="flex flex-row  flex-1 justify-center gap-[32px] 2xl:gap-[50px]">
                                 <div className="flex-1 flex flex-col justify-center items-center">
                                     <div className="flex  h-[132px]">
                                         <Image
@@ -132,7 +134,7 @@ const Items = () => {
                                     </p>
                                 </div>
                             </div>
-                            <div className="flex flex-row flex-1 justify-center gap-[32px]">
+                            <div className="flex flex-row flex-1 justify-center gap-[32px] 2xl:gap-[50px]">
                                 <div className="flex-1 flex flex-col justify-center items-center">
                                     <div className="flex  h-[132px]">
                                         <Image
@@ -188,10 +190,12 @@ const Items = () => {
                         </div>
                     </div>
                     <div className="flex w-1/2   flex-col mr-[80px] h-[555px] gap-[22px] justify-center items-center">
-                        <p className="text-[24px] font-bold">PREMIUM LINE</p>
-                        <div className="w-[540px]  h-[2px] bg-[#2C2E35]"></div>
-                        <div className="max-w-[638px] w-full  h-[482px] flex flex-col items-center rounded-lg mt-[20px] justify-center bg-white ">
-                            <div className="flex flex-row  flex-1 justify-center gap-[32px]">
+                        <p className="text-[24px] 2xl:text-[32px] font-bold">
+                            PREMIUM LINE
+                        </p>
+                        <div className="w-[540px] 2xl:w-[840px] h-[2px] bg-[#2C2E35]"></div>
+                        <div className="max-w-[840px] w-full  h-[482px] flex flex-col items-center rounded-lg mt-[20px] justify-center bg-white ">
+                            <div className="flex flex-row  flex-1 justify-center gap-[32px] 2xl:gap-[50px]">
                                 <div className="flex-1 flex flex-col justify-center items-center">
                                     <div className="flex  h-[132px]">
                                         <Image
@@ -227,7 +231,7 @@ const Items = () => {
                                     </p>
                                 </div>
                             </div>
-                            <div className="flex flex-row flex-1 justify-center gap-[32px]">
+                            <div className="flex flex-row flex-1 justify-center gap-[32px] 2xl:gap-[50px]">
                                 <div className="flex-1 flex flex-col justify-center items-center">
                                     <div className="flex  h-[132px]">
                                         <Image
