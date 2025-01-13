@@ -217,7 +217,7 @@ const Brand = () => {
                                 ></Image>
                             </div>
                             <div className="flex flex-col items-start justify-end">
-                                <p className="text-[20px] 2xl:text-[24px] font-semibold">
+                                <p className="text-[20px] 2xl:text-[20px] font-semibold">
                                     급속 냉각 기술
                                 </p>
                                 <p className="text-[12px] text-[#B0AEA5]">
@@ -239,7 +239,7 @@ const Brand = () => {
                     </div>
                     <div
                         className="flex-1 w-full bg-white rounded-lg h-[220px] flex-col items-center justify-center
-                    gap-[20px] px-[40px] py-[30px]"
+                    gap-[22px] px-[40px] py-[30px]"
                     >
                         <div className="flex flex-row justify-center gap-[20px] ">
                             <div className="w-[180px] 2xl:w-[200px]">
@@ -248,11 +248,11 @@ const Brand = () => {
                                     width={2} // 원하는 비율로 width 지정
                                     height={1} // height도 지정하여 비율을 맞추기
                                     alt="로고 사진"
-                                    className="object-fill w-full h-full"
+                                    className="object-cover w-full h-full"
                                 ></Image>
                             </div>
                             <div className="flex flex-col items-start justify-end">
-                                <p className="text-[20px] 2xl:text-[24px] font-semibold">
+                                <p className="text-[20px] 2xl:text-[20px] font-semibold">
                                     원액 추출 기술
                                 </p>
                                 <p className="text-[12px] text-[#B0AEA5]">
@@ -261,7 +261,7 @@ const Brand = () => {
                             </div>
                         </div>
                         <div
-                            className="mt-[24px]  w-full min-w-[298px]  h-[53px] rounded-md bg-[#FAFAFA]
+                            className="mt-[24px] px-[20px] w-full h-[53px] rounded-md bg-[#FAFAFA]
                         flex flex-col items-center justify-center"
                         >
                             <p className="text-[16px] 2xl:text-[20px] leading-[1]">
@@ -287,7 +287,7 @@ const Brand = () => {
                                 ></Image>
                             </div>
                             <div className="flex flex-col items-start justify-end">
-                                <p className="text-[20px] 2xl:text-[24px] font-semibold">
+                                <p className="text-[18px] 2xl:text-[20px] font-semibold">
                                     선물용 패키지
                                 </p>
                                 <p className="text-[12px] text-[#B0AEA5]">
