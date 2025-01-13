@@ -13,14 +13,14 @@ const Brand = () => {
     // }
     return (
         <div>
-            <nav className="flex flex-row justify-between w-full h-[60px] items-center  ">
+            <nav className="flex flex-row justify-between w-full  h-[60px] 2xl:h-[100px]  items-center  ">
                 {/* <Link href={'/'}>
                         <button className="text-[#544C4C] button bar1 text-[35px]">
                             MÁRMO
                         </button>
                     </Link> */}
                 <Link href={'/'}>
-                    <div className="flex  pl-[80px] h-[28px]">
+                    <div className="flex  pl-[80px] h-[28px] 2xl:h-[46px] ">
                         <Image
                             src="/assets/images/fl.svg"
                             width={78} // 원하는 비율로 width 지정
@@ -31,7 +31,7 @@ const Brand = () => {
                     </div>
                 </Link>
 
-                <div className="flex flex-row  text-[#2C2E35] pr-[80px]  text-[24px] bar2 gap-[80px]">
+                <div className="flex flex-row  text-[#2C2E35] pr-[80px] 2xl:text-[32px] text-[24px] bar2 gap-[80px]">
                     <Link href={'/brand'}>
                         <button className="button">BRAND</button>
                     </Link>
@@ -43,14 +43,13 @@ const Brand = () => {
                     </Link>
                 </div>
             </nav>
-            <div className="w-full h-[731px]">
-                {' '}
+            <div className="max-w-full h-[731px] 2xl:h-[1000px]">
                 <Image
                     src="/assets/images/2.svg"
                     width={1415} // 원하는 비율로 width 지정
                     height={731} // height도 지정하여 비율을 맞추기
                     alt="로고 사진"
-                    className="object-fill w-full h-full"
+                    className="object-cover w-full h-full"
                 />
             </div>
 

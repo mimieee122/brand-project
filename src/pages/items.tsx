@@ -5,15 +5,14 @@ import Image from 'next/image'
 const Items = () => {
     return (
         <>
-            {' '}
-            <nav className="flex flex-row justify-between  h-[60px] items-center  ">
+            <nav className="flex flex-row justify-between w-full  h-[60px] 2xl:h-[100px]  items-center  ">
                 {/* <Link href={'/'}>
                         <button className="text-[#544C4C] button bar1 text-[35px]">
                             MÁRMO
                         </button>
                     </Link> */}
                 <Link href={'/'}>
-                    <div className="flex  pl-[80px] h-[28px]">
+                    <div className="flex  pl-[80px] h-[28px] 2xl:h-[46px] ">
                         <Image
                             src="/assets/images/fl.svg"
                             width={78} // 원하는 비율로 width 지정
@@ -24,7 +23,7 @@ const Items = () => {
                     </div>
                 </Link>
 
-                <div className="flex flex-row  text-[#2C2E35] pr-[80px]  text-[24px] bar2 gap-[80px]">
+                <div className="flex flex-row  text-[#2C2E35] pr-[80px] 2xl:text-[32px] text-[24px] bar2 gap-[80px]">
                     <Link href={'/brand'}>
                         <button className="button">BRAND</button>
                     </Link>
@@ -36,8 +35,7 @@ const Items = () => {
                     </Link>
                 </div>
             </nav>
-            <div className="w-full h-[732px] mb-[100px]">
-                {' '}
+            <div className="w-full h-[732px] 2xl:h-[1000px] mb-[100px]">
                 <Image
                     src="/assets/images/products.svg"
                     width={1419} // 원하는 비율로 width 지정
@@ -115,7 +113,7 @@ const Items = () => {
                                     <p className="text-[12px]  text-[#787878]">
                                         에티오피아(Ethiopia)
                                     </p>
-                                </div>{' '}
+                                </div>
                                 <div className="flex-1 flex flex-col justify-center items-center">
                                     <div className="flex  h-[132px]">
                                         <Image
@@ -168,7 +166,7 @@ const Items = () => {
                                     <p className="text-[12px]  text-[#787878]">
                                         코스타리카(Coasta Rica)
                                     </p>
-                                </div>{' '}
+                                </div>
                                 <div className="flex-1 flex flex-col justify-center items-center">
                                     <div className="flex  h-[132px]">
                                         <Image
@@ -210,7 +208,7 @@ const Items = () => {
                                     <p className="text-[12px] text-[#787878] ">
                                         과테말라 게이샤
                                     </p>
-                                </div>{' '}
+                                </div>
                                 <div className="flex-1 flex flex-col justify-center items-center">
                                     <div className="flex  h-[132px]">
                                         <Image
@@ -263,9 +261,9 @@ const Items = () => {
                                     <p className="text-[12px]  text-[#787878]">
                                         파나마 게이샤
                                     </p>
-                                </div>{' '}
+                                </div>
                             </div>
-                        </div>{' '}
+                        </div>
                     </div>
                 </div>
             </div>
