@@ -12,8 +12,8 @@ const Brand = () => {
     //     },
     // }
     return (
-        <div className="flex flex-col">
-            <nav className="flex flex-row  justify-between  h-[60px] items-center  ">
+        <div>
+            <nav className="flex flex-row justify-between w-full h-[60px] items-center  ">
                 {/* <Link href={'/'}>
                         <button className="text-[#544C4C] button bar1 text-[35px]">
                             MÁRMO
@@ -50,11 +50,11 @@ const Brand = () => {
                     width={1415} // 원하는 비율로 width 지정
                     height={731} // height도 지정하여 비율을 맞추기
                     alt="로고 사진"
-                    className="object-cover w-full h-full"
+                    className="object-fill w-full h-full"
                 />
             </div>
 
-            <div className="mt-[120px] flex flex-col max-w-full items-center justify-center">
+            <div className="mt-[120px]   flex flex-col max-w-full items-center justify-center">
                 <p className="text-[40px] mb-[20px] leading-[1] thick font-extrabold">
                     BRAND VISION
                 </p>
@@ -71,7 +71,7 @@ const Brand = () => {
                 <div className=" mr-[80px] mb-[60px] ml-[80px] min-w-[1257px] h-[4px] bg-[#DEDEDE]"></div>
             </div>
             <div
-                className=" mr-[80px] mb-[80px] ml-[80px] min-w-[1257px] h-[325px]
+                className="mb-[80px] px-[80px] min-w-[1257px] h-[325px]
             flex flex-row justify-center items-center gap-[73px]"
             >
                 <div
@@ -195,7 +195,7 @@ const Brand = () => {
                 </div>
             </div>
             <div className="flex-1 mt-[40px] mb-[120px] max-w-full h-[600px] bg-[#FAFAFA] flex flex-col items-center justify-center">
-                <div className="flex  flex-col  items-center justify-center">
+                <div className="flex pt-[20px] flex-col  items-center justify-center">
                     <p className="text-[24px] leading-[1] text-[#B0AEA5] font-bold">
                         WHY MARMO
                     </p>

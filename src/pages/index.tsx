@@ -23,14 +23,14 @@ const Home = () => {
 
     return (
         <div>
-            <nav className="flex flex-row justify-between w-full  h-[60px] items-center  ">
+            <nav className="flex flex-row justify-between w-full  h-[60px] 2xl:h-[120px]  items-center  ">
                 {/* <Link href={'/'}>
                         <button className="text-[#544C4C] button bar1 text-[35px]">
                             MÁRMO
                         </button>
                     </Link> */}
                 <Link href={'/'}>
-                    <div className="flex  pl-[80px] h-[28px]">
+                    <div className="flex  pl-[80px] h-[28px] 2xl:h-[56px] ">
                         <Image
                             src="/assets/images/fl.svg"
                             width={78} // 원하는 비율로 width 지정
@@ -41,7 +41,7 @@ const Home = () => {
                     </div>
                 </Link>
 
-                <div className="flex flex-row  text-[#2C2E35] pr-[80px]  text-[24px] bar2 gap-[80px]">
+                <div className="flex flex-row  text-[#2C2E35] pr-[80px] 2xl:text-[36px] text-[24px] bar2 gap-[80px]">
                     <Link href={'/brand'}>
                         <button className="button">BRAND</button>
                     </Link>
@@ -54,8 +54,8 @@ const Home = () => {
                 </div>
             </nav>
             <div className="flex flex-col overflow-hidden items-center w-full overflow-y-auto ">
-                <div className="w-full h-[400px]   flex flex-row items-center justify-between bg-[#DFE3E3]">
-                    <div className="flex pl-[80px] h-[340px]">
+                <div className="w-full h-[400px] 2xl:h-[600px] overflow-y-hidden  flex flex-row items-center justify-between bg-[#DFE3E3]">
+                    <div className="flex pl-[80px] h-[340px] 2xl:h-[500px]">
                         <Image
                             src="/assets/images/B_logo.svg"
                             width={296.45} // 원하는 비율로 width 지정
@@ -65,13 +65,13 @@ const Home = () => {
                             className="object-fill w-full h-full"
                         />
                     </div>
-                    <div className="flex mr-0 h-[400px]">
+                    <div className="flex mr-0 h-[400px] 2xl:h-[800px]">
                         <Image
                             src="/assets/images/cross.svg"
                             width={894} // 원하는 비율로 width 지정
                             height={400} // height도 지정하여 비율을 맞추기
                             alt="로고 사진"
-                            className="object-fill h-full"
+                            className="object-fill w-full h-full"
                         />
                     </div>
                 </div>
@@ -84,14 +84,14 @@ const Home = () => {
                             THE BRAND
                         </p>
                     </div>
-                    <div className="mt-[20px] w-full   h-[4px] bg-[#DEDEDE]"></div>
+                    <div className="w-full mt-[20px]   h-[4px] bg-[#DEDEDE]"></div>
                     <p className="mt-[20px] text-[#2C2E35] text-[24px] font-semibold">
                         마르모 커피는 프리미엄 드립커피를 누구나 일상에서 쉽게
                         경험할 수 있도록 탄생한, 혁신적인 커피 브랜드입니다
                     </p>
                     <div className="mt-[20px]  px-[80px] w-full h-[4px] bg-[#DEDEDE]"></div>
                 </div>
-                <div className="mt-[20px] w-full px-[80px]  flex flex-row  justify-center items-center gap-[29px] ">
+                <div className="mt-[20px] px-[80px]  flex flex-row  justify-center items-center gap-[29px] ">
                     <div
                         className="flex-1 min-w-[399px] w-full   h-[255px] border-b-[3px] border-b-[#2C2E35] items-center justify-center rounded-2xl bg-[#D7D6D2]
                                 flex flex-col"
@@ -206,7 +206,7 @@ const Home = () => {
                         </p>
                     </div>
                 </div>
-                <div className="arch w-full h-[1018px] flex flex-col items-center justify-center">
+                <div className="arch w-full h-[1018px] 2xl:h-[2000px] flex flex-col items-center justify-center">
                     <div className="mt-[60px] flex flex-col gap-[22px] items-center justify-center">
                         <div className="flex  h-[36px]">
                             <Image
@@ -218,24 +218,24 @@ const Home = () => {
                             />
                         </div>
                         <div className="flex flex-col  items-center justify-center">
-                            <p className="text-[40px] leading-[1] thick font-extrabold">
+                            <p className="text-[40px] 2xl:text-[60px] leading-[1] thick font-extrabold">
                                 SPECIALTY COFFEE
                             </p>
-                            <p className="text-[24px] pt-[8px] leading-[1] font-bold text-[#D9D9D9]">
+                            <p className="text-[24px] 2xl:text-[32px] pt-[8px] leading-[1] font-bold text-[#D9D9D9]">
                                 IN MARMO
                             </p>
                         </div>
                     </div>
-                    <div className="mt-[60px] w-full flex flex-row gap-[16px] justify-center ">
-                        <div className="flex w-1/2 flex-col ml-[80px] h-[555px] gap-[22px] justify-center items-center">
-                            <p className="text-[24px] font-bold">
+                    <div className="mt-[60px] w-full h-[1000px] flex flex-row gap-[30px] justify-center ">
+                        <div className="flex w-1/2 flex-col ml-[80px] h-[555px] 2xl:h-[1000px] gap-[22px] justify-center items-center">
+                            <p className="text-[24px] 2xl:text-[32px] font-bold">
                                 ORIGINAL LINE
                             </p>
-                            <div className="w-[540px]   h-[2px] bg-[#2C2E35]"></div>
-                            <div className="max-w-[638px] w-full  h-[482px] flex flex-col items-center mt-[20px] rounded-lg  justify-center bg-white ">
+                            <div className="w-full px-[20px]  h-[2px] bg-[#2C2E35]"></div>
+                            <div className="min-w-[638px] w-full  h-[482px] 2xl:h-[600px]  flex flex-col items-center mt-[20px] rounded-lg  justify-center bg-white ">
                                 <div className="flex flex-row  flex-1 justify-center gap-[32px]">
                                     <div className="flex-1 flex flex-col justify-center items-center">
-                                        <div className="flex  h-[132px]">
+                                        <div className="flex  h-[132px] ">
                                             <Image
                                                 src="/assets/images/sahara.svg"
                                                 width={150} // 원하는 비율로 width 지정
@@ -341,12 +341,12 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="flex w-1/2   flex-col mr-[80px] h-[555px] gap-[22px] justify-center items-center">
-                            <p className="text-[24px] font-bold">
+                        <div className="flex w-1/2   flex-col mr-[80px] h-[555px] 2xl:h-[1000px] gap-[22px] justify-center items-center">
+                            <p className="text-[24px] 2xl:text-[32px] font-bold">
                                 PREMIUM LINE
                             </p>
-                            <div className="w-[540px]  h-[2px] bg-[#2C2E35]"></div>
-                            <div className="max-w-[638px] w-full  h-[482px] flex flex-col items-center rounded-lg mt-[20px] justify-center bg-white ">
+                            <div className="w-full   h-[2px] bg-[#2C2E35]"></div>
+                            <div className=" w-full  h-[482px] 2xl:h-[600px] flex flex-col items-center rounded-lg mt-[20px] justify-center bg-white ">
                                 <div className="flex flex-row  flex-1 justify-center gap-[32px]">
                                     <div className="flex-1 flex flex-col justify-center items-center">
                                         <div className="flex  h-[132px]">
@@ -423,8 +423,8 @@ const Home = () => {
                         </div>
                     </div>
                     <Link href={'/items'}>
-                        <div className="flex mb-[100px]  justify-center items-center mt-[44px] border-[2.4px]  border-[#D9D9D9] rounded-3xl  w-[399px] h-[50px] ">
-                            <p className="text-[20px] font-bold text-[#2C2E35]">
+                        <div className="flex mb-[100px]  justify-center items-center mt-[44px] border-[2.4px] 2xl:border-[4px]  border-[#D9D9D9] rounded-3xl  w-[399px] h-[50px] 2xl:w-[600px] 2xl:h-[80px] ">
+                            <p className="text-[20px] 2xl:text-[32px] font-bold text-[#2C2E35]">
                                 모든 커피 상세보기
                             </p>
                         </div>
@@ -467,7 +467,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className=" w-full w-max-[1417px]  mt-[120px] mb-[120px]  h-[368px] bg-[#F2F5F1] flex flex-row justify-between pl-[80px] pr-[0px] items-center">
+                <div className=" w-full w-max-[1417px] overflow-hidden  mt-[120px] mb-[120px]  h-[368px] 2xl:h-[500px] bg-[#F2F5F1] flex flex-row justify-between pl-[80px] pr-[0px] items-center">
                     <div className="flex flex-col   items-start  gap-[44px]">
                         <p className="text-[32px] thick font-semibold">
                             마지막 한 모금까지, 깊은 여운
@@ -490,7 +490,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className="mr-[0px] h-[368px] overflow-hidden">
+                    <div className="mr-[0px] h-[368px] 2xl:h-[600px] overflow-hidden">
                         {' '}
                         <Image
                             src="/assets/images/banner.svg"
