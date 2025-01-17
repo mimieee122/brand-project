@@ -31,7 +31,7 @@ const Brand = () => {
                     </div>
                 </Link>
 
-                <div className="flex flex-row  text-[#2C2E35] pr-[80px] 2xl:text-[32px] text-[24px] bar2 gap-[80px]">
+                <div className="flex flex-row  text-[#2C2E35] pr-[80px] 2xl:text-[32px] lg:text-[24px] sm:text-[18px] bar2 gap-[80px]">
                     <Link href={'/brand'}>
                         <button className="button">BRAND</button>
                     </Link>
