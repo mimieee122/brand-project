@@ -47,12 +47,12 @@ body {
     font-family: 'Roboto Condensed';
 }
 
-.one {
+.korMd {
     @apply text-[12px] sm:text-[14px] md:text-[18px] lg:text-[22px] whitespace-nowrap;
 }
 
-.korMd {
-    @apply text-[20px] sm:text-[22px] md:text-[24px] lg:text-[26px] whitespace-nowrap;
+.korLg {
+    @apply text-[20px] sm:text-[22px] md:text-[24px]  whitespace-nowrap;
 }
 
 .korSm {
