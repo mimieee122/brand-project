@@ -41,7 +41,7 @@ const Home = () => {
                     </div>
                 </Link>
 
-                <div className="flex flex-row  text-[#2C2E35] pr-[80px] 2xl:text-[32px] lg:text-[24px] sm:text-[18px] bar2 gap-[80px]">
+                <div className="flex flex-row engSm  text-[#2C2E35] pr-[80px] gap-[80px]">
                     <Link href={'/brand'}>
                         <button className="button">BRAND</button>
                     </Link>
@@ -77,18 +77,20 @@ const Home = () => {
                 </div>
                 <div className="flex flex-col w-full  2xl:px-[160px] xl:px-[80px] lg:px-[80px] md:px-[40px] sm:px-[20px] justify-center items-center mt-[30px] 2xl:h-[400px] ">
                     <div className="flex flex-col items-center gap-[-8px] ">
-                        <p className=" 2xl:text-[50px] lg:text-[40px] md:text-[30px] font-extrabold leading-[1.2] ">
+                        <p className=" engLg font-extrabold leading-[1.2] ">
                             ABOUT
                         </p>
-                        <p className=" 2xl:text-[36px] lg:text-[30px] md:text-[28px] font-bold leading-[1.2] ">
+                        <p className="engSm font-bold leading-[1.2] ">
                             THE BRAND
                         </p>
                     </div>
                     <div className="  2xl:mb-[32px] mt-[8px] lg:mb-[8px] w-full h-[4px]  bg-[#DEDEDE]"></div>
-                    <p className=" 2xl:mt-[32px]  2xl:text-[32px] mt-[8px] xl:text-[24px]  lg:mb-[18px] lg:text-[20px] md:text-[18px]   text-[#2C2E35]  font-semibold">
-                        마르모 커피는 프리미엄 드립커피를 누구나 일상에서 쉽게
-                        경험할 수 있도록 탄생한, 혁신적인 브랜드입니다
-                    </p>
+                    <div className="inline">
+                        <p className="one  2xl:mt-[32px]  mt-[8px]   lg:mb-[18px]   text-[#2C2E35]  font-semibold">
+                            마르모 커피는 프리미엄 드립커피를 누구나 일상에서
+                            쉽게 경험할 수 있도록 탄생한, 혁신적인 브랜드입니다
+                        </p>
+                    </div>
                     <div className=" 2xl:mt-[32px] mt-[8px]  w-full  h-[4px]  bg-[#DEDEDE]"></div>
                 </div>
                 <div className="mt-[20px]  w-full  2xl:px-[160px] xl:px-[80px] lg:px-[80px] md:px-[40px] sm:px-[20px]  mb-[40px] flex flex-row max-w-full justify-center items-center gap-[12px]  ">
@@ -106,10 +108,10 @@ const Home = () => {
                                     className="object-fill w-full h-full"
                                 />
                             </div>
-                            <p className=" 2xl:text-[30px] xl:text-[26px] lg:text-[24px] md:text-[20px] font-semibold">
+                            <p className=" korMd font-semibold">
                                 최상급 원두의 깊은 풍미
                             </p>
-                            <div className="flex flex-col font-medium 2xl:text-[22px] xl:text-[24px] lg:text-[20px] md:text-[14px] sm:text-[12px] justify-center items-center gap-[-2px]">
+                            <div className="flex flex-col font-medium korSm justify-center items-center gap-[-2px]">
                                 <p>특허 출원 추출 기술과 엄선된 원두로</p>
                                 <p>풍미를 완벽하게 보존</p>
                             </div>
@@ -129,10 +131,10 @@ const Home = () => {
                                     className="object-fill w-full h-full"
                                 />
                             </div>
-                            <p className=" 2xl:text-[30px] xl:text-[26px] lg:text-[24px] md:text-[20px] font-semibold">
+                            <p className=" korMd font-semibold">
                                 누구나 손쉽게
                             </p>
-                            <div className="flex flex-col font-medium 2xl:text-[22px] xl:text-[24px] lg:text-[20px] md:text-[14px] sm:text-[12px] justify-center items-center gap-[-2px]">
+                            <div className="flex flex-col font-medium korSm justify-center items-center gap-[-2px]">
                                 <p>물만 부으면 완성되는,</p>
                                 <p>누구나 쉽게 만드는 드립커피</p>
                             </div>
@@ -152,10 +154,10 @@ const Home = () => {
                                     className="object-fill w-full h-full"
                                 />
                             </div>
-                            <p className=" 2xl:text-[30px] xl:text-[26px] lg:text-[24px] md:text-[20px] font-semibold">
+                            <p className="korMd font-semibold">
                                 일상의 특별한 순간
                             </p>
-                            <div className="flex flex-col font-medium 2xl:text-[22px] xl:text-[24px] lg:text-[20px] md:text-[14px] sm:text-[12px] justify-center items-center gap-[-2px]">
+                            <div className="flex flex-col font-medium korSm justify-center items-center gap-[-2px]">
                                 <p>대리석처럼 영구적이고 고급스러운,</p>
                                 <p>일상 속 특별함 선사</p>
                             </div>
@@ -164,7 +166,7 @@ const Home = () => {
                 </div>
                 <Link href={'/brand'}>
                     <div className="flex mb-[100px]  justify-center items-center  border-[2px]  border-[#D9D9D9] rounded-3xl 2xl:w-[540px] md:w-[400px] sm:w-[360px] 2xl:h-[60px] h-[50px] ">
-                        <p className=" 2xl:text-[24px] xl:text-[20px] md:text-[18px] font-bold text-[#2C2E35]">
+                        <p className="korSm font-bold text-[#2C2E35]">
                             브랜드 상세보기
                         </p>
                     </div>
@@ -192,14 +194,16 @@ const Home = () => {
                                 className="object-cover w-full h-full"
                             />
                         </div>
-                        <div className="2xl:ml-[120px] lg:ml-[100px] md:ml-[80px] flex flex-col  2xl:text-[28px] xl:text-[22px] lg:text-[20px] sm:text-[14px] text-white items-start justify-center">
-                            <p className="leading-[1]  mb-[48px]">
+                        <div className="2xl:ml-[120px] lg:ml-[100px] md:ml-[80px] flex flex-col text-white items-start justify-center">
+                            <p className="leading-[1] korMd font-bold  mb-[48px]">
                                 마르모(Marmo)는 이탈리아로 대리석을 뜻합니다.
                             </p>
-                            <p className="leading-[1.5]  mb-[8px] mr-[80px]">
+                            <p className="leading-[1.2] one  mb-[8px] mr-[80px]">
                                 대리석이 시간이 지나도 본연의 품격과 견고함을
-                                잃지 않듯, 변함없는 품질과 특별한 순간을
-                                선사하겠습니다.
+                                잃지 않듯,
+                            </p>
+                            <p className="leading-[1.2] one  mb-[8px] mr-[80px]">
+                                변함없는 품질과 특별한 순간을 선사하겠습니다.
                             </p>
                         </div>
                     </div>
@@ -216,7 +220,7 @@ const Home = () => {
                             />
                         </div>
                         <div className="flex flex-col  items-center justify-center">
-                            <p className="2xl:text-[44px] xl:text-[40px] lg:text-[34px] md:text-[32px] sm:text-[30px] 2xl:font-bold leading-[1] thick font-extrabold">
+                            <p className="engLg 2xl:font-bold leading-[1] thick font-extrabold">
                                 SPECIALTY COFFEE
                             </p>
                             <p className="text-[24px] pt-[8px] leading-[1] font-bold text-[#D9D9D9]">
@@ -226,9 +230,7 @@ const Home = () => {
                     </div>
                     <div className="mt-[60px] w-full flex flex-row lg:gap-[16px] md:gap-[12px] sm:gap-[8px] justify-center ">
                         <div className="flex w-1/2 flex-col ml-[80px] h-[555px] gap-[22px] justify-center items-center">
-                            <p className="text-[24px] 2xl:text-[32px] font-bold">
-                                ORIGINAL LINE
-                            </p>
+                            <p className="engSm font-bold">ORIGINAL LINE</p>
                             <div className=" 2xl:w-[840px] xl:w-[540px] lg:w-[400px] md:w-[360px] sm:w-[300px]   h-[2px] bg-[#2C2E35]"></div>
                             <div className=" 2xl:w-[840px] xl:w-[540px] lg:w-[400px] md:w-[360px] sm:w-[300px] w-full 2xl:h-[840px] xl:h-[482px] lg:h-[400px] md:h-[380px] sm:h-[360px] flex flex-col items-center mt-[20px] rounded-lg  justify-center bg-white ">
                                 <div className="flex flex-row  flex-1 justify-center  2xl:gap-[50px] xl:gap-[32px] lg:gap-[24px] md:gap-[20px] sm:gap-[16px]">
@@ -340,9 +342,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="flex w-1/2   flex-col mr-[80px] h-[555px] gap-[22px] justify-center items-center">
-                            <p className="text-[24px] 2xl:text-[32px] font-bold">
-                                PREMIUM LINE
-                            </p>
+                            <p className="engSm font-bold">PREMIUM LINE</p>
                             <div className="2xl:w-[840px] xl:w-[540px] lg:w-[400px] md:w-[360px] sm:w-[300px] h-[2px] bg-[#2C2E35]"></div>
                             <div className="max-w-[840px] w-full  2xl:h-[840px] xl:h-[482px] lg:h-[400px] md:h-[380px] sm:h-[360px] flex flex-col items-center rounded-lg mt-[20px] justify-center bg-white ">
                                 <div className="flex flex-row  flex-1 justify-center gap-[32px] 2xl:gap-[50px]">
@@ -422,17 +422,17 @@ const Home = () => {
                     </div>
                     <Link href={'/items'}>
                         <div className="flex mt-[50px] 2xl:bg-white  justify-center items-center  border-[2px]  border-[#D9D9D9] rounded-3xl  2xl:w-[540px] md:w-[400px] sm:w-[360px] 2xl:h-[60px] h-[50px] ">
-                            <p className="2xl:text-[24px] xl:text-[20px] md:text-[18px] font-bold text-[#2C2E35]">
+                            <p className="korSm font-bold text-[#2C2E35]">
                                 제품 상세보기
                             </p>
                         </div>
                     </Link>
                 </div>
-                <div className="min-w-[977px] px-[40px] md:min-w-[600px] sm:min-w-[500px] md:px-[20px] xl:mx-[80px] lg:mx-[80px] md:mx-[40px] sm:mx-[20px]  flex flex-col 2xl:gap-[28px] lg:gap-[20px] md:gap-[14px] sm:gap-[14px] items-center justify-center rounded-3xl  2xl:h-[480px] xl:h-[440px] lg:h-[400px] md:h-[360px] sm:h-[320px]  bg-[#EDEDED]">
-                    <p className="text-[40px] 2xl:text-[44px] xl:text-[40px] lg:text-[34px] md:text-[32px] sm:text-[30px] leading-[1] thick font-extrabold">
+                <div className="flex flex-col items-center justify-center gap-[20px] rounded-2xl min-w-[977px] px-[80px] md:px-[20px] xl:h-[440px] lg:h-[400px] md:h-[360px] sm:h-[320px]  bg-[#EDEDED]">
+                    <p className="engLg leading-[1] thick font-extrabold">
                         HOW TO USE
                     </p>
-                    <p className="  2xl:text-[26px] xl:text-[22px] lg:text-[20px] sm:text-[16px] font-semibold">
+                    <p className=" korSm font-semibold">
                         마르모 커피 1: 물 4의 비율로, 마르모 커피 50ml와 물
                         200ml를 섞으면 고급 드립 커피가 완성됩니다
                     </p>
@@ -449,9 +449,7 @@ const Home = () => {
                         </div>
                         <div className="flex-1 flex-col ml-[20px] gap-[22px] 2xl:gap-[32px] items-start  justify-center">
                             <div className="w-[284px] md:w-[200px]  h-[2px] mb-[22px]  bg-black"></div>
-                            <p className="text-[18px] md:text-[14px] thick">
-                                나만의 커피 스타일링
-                            </p>
+                            <p className="korSm thick">나만의 커피 스타일링</p>
                             <p className="mt-[16px] text-[12px] md:text-[10px] ">
                                 마르모 원액은 우유, 탄산음료, 아이스크림 등과
                                 쉽게 섞여 아이스커피, 핫커피, 라떼, 아포가토까지
@@ -464,20 +462,20 @@ const Home = () => {
                 </div>
                 <div className=" w-full w-max-[1417px]  min-w-[977px] lg:min-w-[800px] md:min-w-[600px] sm:min-w-[500px] overflow-hidden  mt-[120px] mb-[120px]  h-[368px] 2xl:h-[480px] xl:h-[380px] lg:h-[240px] md:h-[200px] sm:h-[180px] bg-[#F2F5F1] flex flex-row justify-between pl-[80px] 2xl:pl-[160px] pr-[0px] items-center">
                     <div className="flex flex-col   items-start  gap-[44px]">
-                        <p className="2xl:text-[32px] xl:text-[31px] lg:text-[30px] md:text-[28px] sm:text-[26px] thick font-semibold">
+                        <p className="korMd thick font-semibold">
                             마지막 한 모금까지, 깊은 여운
                         </p>
                         <div className="flex flex-row justify-center items-center gap-[20px]">
                             <Link href={'/brand'}>
                                 <div className="w-[326px] h-[54px]  bg-white border-[2px] rounded-3xl flex flex-row justify-center items-center">
-                                    <p className="text-[20px] 2xl:text-[24px] font-bold">
+                                    <p className="korSm font-bold">
                                         브랜드 철학 더 알아보기 →
                                     </p>
                                 </div>
                             </Link>
                             <Link href={'/items'}>
                                 <div className="w-[326px] h-[54px]  bg-white border-[2px] rounded-3xl flex flex-row justify-center items-center">
-                                    <p className="text-[20px] 2xl:text-[24px] font-bold">
+                                    <p className="korSm font-bold">
                                         마르모 커피 구경하기 →
                                     </p>
                                 </div>

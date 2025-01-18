@@ -37,8 +37,26 @@ body {
     font-weight: 500; /* extrabold */
 }
 
-.bar2 {
+.engSm {
+    @apply text-[18px] sm:text-[22px] md:text-[24px] lg:text-[26px] xl:text-[28px];
     font-family: 'Roboto Condensed';
+}
+
+.engLg {
+    @apply text-[30px] sm:text-[32px] md:text-[36px] lg:text-[38px];
+    font-family: 'Roboto Condensed';
+}
+
+.one {
+    @apply text-[12px] sm:text-[14px] md:text-[18px] lg:text-[20px] whitespace-nowrap;
+}
+
+.korMd {
+    @apply text-[22px] sm:text-[24px] md:text-[28px];
+}
+
+.korSm {
+    @apply text-[20px] sm:text-[20px] md:text-[22px];
 }
 
 .infos * {
