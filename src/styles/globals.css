@@ -51,16 +51,16 @@ body {
     font-family: 'Roboto Condensed';
 }
 
+.korSm {
+    @apply text-[9px] sm:text-[12px] md:text-[15px] lg:text-[18px] whitespace-nowrap;
+}
+
 .korMd {
     @apply text-[12px] sm:text-[14px] md:text-[18px] lg:text-[22px] whitespace-nowrap;
 }
 
 .korLg {
     @apply text-[20px] sm:text-[22px] md:text-[24px]  whitespace-nowrap;
-}
-
-.korSm {
-    @apply text-[20px] sm:text-[20px] md:text-[22px];
 }
 
 .infos * {

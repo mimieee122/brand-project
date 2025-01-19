@@ -91,9 +91,13 @@ const Brand = () => {
                             INNOVATION
                         </p>
                     </div>
-                    <div className=" mt-[18px] font-medium text-[16px]  2xl:text-[20px] px-[20px] h-[50px] 2xl:h-[65px] rounded-lg bg-[white] shadow-lg flex flex-col items-center justify-center">
-                        <p className="leading-[1]">커피 본연의 맛을 살리는</p>
-                        <p className="leading-[1] mt-[2px]">급속 냉각 기술</p>
+                    <div className=" mt-[18px] font-medium px-[20px] py-[4px] rounded-lg bg-[white] shadow-lg flex flex-col items-center justify-center">
+                        <p className="leading-[1] korSm">
+                            커피 본연의 맛을 살리는
+                        </p>
+                        <p className="leading-[1] korSm mt-[2px]">
+                            급속 냉각 기술
+                        </p>
                     </div>
                 </div>
                 <div
@@ -114,9 +118,9 @@ const Brand = () => {
                             ACCESSCIBILITY
                         </p>
                     </div>
-                    <div className=" mt-[18px] font-medium text-[16px] 2xl:text-[20px] px-[20px] h-[50px] 2xl:h-[65px] rounded-lg bg-[white] shadow-lg flex flex-col items-center justify-center">
-                        <p className="leading-[1]">언제 어디서나</p>
-                        <p className="leading-[1] mt-[2px]">
+                    <div className=" mt-[18px] font-medium  px-[20px] py-[8px] rounded-lg bg-[white] shadow-lg flex flex-col items-center justify-center">
+                        <p className="leading-[1] korSm">언제 어디서나</p>
+                        <p className="leading-[1] korSm mt-[2px]">
                             간편하게 즐기는 드립커피
                         </p>
                     </div>
@@ -139,11 +143,13 @@ const Brand = () => {
                             SUSTAINABILITY
                         </p>
                     </div>
-                    <div className=" mt-[18px] font-medium text-[16px] 2xl:text-[20px] px-[20px] h-[50px] 2xl:h-[65px] rounded-lg bg-[white] shadow-lg flex flex-col items-center justify-center">
-                        <p className="leading-[1] ">
+                    <div className=" mt-[18px] font-medium px-[20px] py-[8px] rounded-lg bg-[white] shadow-lg flex flex-col items-center justify-center">
+                        <p className="leading-[1] korSm">
                             대리석의 영구적 가치를 닮은
                         </p>
-                        <p className="leading-[1] mt-[2px]">고급스러운 커피</p>
+                        <p className="leading-[1] mt-[2px] korSm">
+                            고급스러운 커피
+                        </p>
                     </div>
                 </div>
             </div>
@@ -193,10 +199,10 @@ const Brand = () => {
                         마르모 커피가 특별한 이유
                     </p>
                 </div>
-                <div className="flex flex-row items py-[30px] h-[300px] justify-center items-center gap-[40px]">
+                <div className="flex flex-row items py-[30px] h-[300px] justify-center items-center gap-[20px]">
                     <div
-                        className="flex-1 w-full h-full bg-white rounded-lg  flex-col items-center justify-center
-                    gap-[20px] px-[20px] py-[15px] "
+                        className="flex-1 w-full h-full bg-white rounded-lg flex flex-col items-center justify-center
+                    gap-[8px] px-[20px] py-[15px] "
                     >
                         <div className="flex flex-1 w-full flex-row justify-center gap-[20px] ">
                             <div className="sm:w-[60px] md:w-[90px] lg:w-[120px] xl:w-[180px] 2xl:w-[200px]">
@@ -218,20 +224,20 @@ const Brand = () => {
                             </div>
                         </div>
                         <div
-                            className="mt-[24px] px-[20px] flex-1  w-full  h-[53px] rounded-md bg-[#FAFAFA]
+                            className="flex-1  w-full   px-[10px] rounded-md bg-[#FAFAFA]
                         flex flex-col items-center justify-center"
                         >
-                            <p className="text-[16px]  2xl:text-[20px] whitespace-nowrap leading-[1]">
+                            <p className="korSm leading-[1] pt-2">
                                 맛과 향을 유지하는
                             </p>
-                            <p className="text-[16px] 2xl:text-[20px] whitespace-nowrap leading-[1] mt-[2px]">
+                            <p className="korSm leading-[1] mt-[2px] pb-2">
                                 마르모만의 혁신적 기술
                             </p>
                         </div>
                     </div>
                     <div
-                        className="flex-1 w-full h-full bg-white rounded-lg  flex-col items-center justify-center
-                    gap-[22px] px-[20px] py-[15px]"
+                        className="flex-1 w-full h-full bg-white rounded-lg flex  flex-col items-center justify-center
+                    gap-[8px] px-[20px] py-[15px] "
                     >
                         <div className="flex flex-row justify-center gap-[20px] ">
                             <div className="sm:w-[60px] md:w-[90px] lg:w-[120px] xl:w-[180px] 2xl:w-[200px]">
@@ -253,20 +259,20 @@ const Brand = () => {
                             </div>
                         </div>
                         <div
-                            className="mt-[24px] px-[20px] w-full h-[53px] rounded-md bg-[#FAFAFA]
+                            className=" px-[10px] w-full h-full rounded-md bg-[#FAFAFA]
                         flex flex-col items-center justify-center"
                         >
-                            <p className="text-[16px] 2xl:text-[20px] whitespace-nowrap leading-[1]">
+                            <p className="korSm leading-[1] pt-2">
                                 단 한 방울로도 깊고 진한 커피를
                             </p>
-                            <p className="text-[16px] 2xl:text-[20px] whitespace-nowrap leading-[1] mt-[2px]">
+                            <p className="korSm leading-[1] mt-[2px] pb-2">
                                 즐길 수 있는 마르모만의 기술
                             </p>
                         </div>
                     </div>
                     <div
-                        className="flex-1 w-full h-full bg-white rounded-lg flex-col items-center justify-center
-                    gap-[20px] px-[20px] py-[15px]"
+                        className="flex-1 w-full h-full bg-white rounded-lg flex flex-col items-center justify-center
+                    gap-[8px] px-[20px] py-[15px]"
                     >
                         <div className="flex flex-row justify-center gap-[20px] ">
                             <div className="sm:w-[60px] md:w-[90px] lg:w-[120px] xl:w-[180px] 2xl:w-[200px]">
@@ -288,13 +294,13 @@ const Brand = () => {
                             </div>
                         </div>
                         <div
-                            className="mt-[24px]  w-full mx-[12px]  h-[53px] rounded-md bg-[#FAFAFA]
+                            className=" w-full  h-full px-[10px]  rounded-md bg-[#FAFAFA]
                         flex flex-col items-center justify-center"
                         >
-                            <p className="text-[16px] 2xl:text-[20px] whitespace-nowrap leading-[1]">
+                            <p className="korSm leading-[1] pt-2">
                                 감각적이고 고급스러운 선물로
                             </p>
-                            <p className="text-[16px] 2xl:text-[20px] whitespace-nowrap leading-[1] mt-[2px]">
+                            <p className="korSm  leading-[1] mt-[2px] pb-2">
                                 특별한 순간을 완성
                             </p>
                         </div>

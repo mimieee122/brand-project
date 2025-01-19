@@ -112,10 +112,10 @@ const Home = () => {
                                 최상급 원두의 깊은 풍미
                             </p>
                             <div className="flex flex-col font-medium justify-center items-center gap-[-2px]">
-                                <p className="korMd">
+                                <p className="korSm">
                                     특허 출원 추출 기술과 엄선된 원두로
                                 </p>
-                                <p className="korMd">풍미를 완벽하게 보존</p>
+                                <p className="korSm">풍미를 완벽하게 보존</p>
                             </div>
                         </div>
                     </div>
@@ -137,8 +137,8 @@ const Home = () => {
                                 누구나 손쉽게
                             </p>
                             <div className="flex flex-col font-medium korSm justify-center items-center gap-[-2px]">
-                                <p className="korMd">물만 부으면 완성되는,</p>
-                                <p className="korMd">
+                                <p className="korSm">물만 부으면 완성되는,</p>
+                                <p className="korSm">
                                     누구나 쉽게 만드는 드립커피
                                 </p>
                             </div>
@@ -162,10 +162,10 @@ const Home = () => {
                                 일상의 특별한 순간
                             </p>
                             <div className="flex flex-col font-medium korSm justify-center items-center gap-[-2px]">
-                                <p className="korMd">
+                                <p className="korSm">
                                     대리석처럼 영구적이고 고급스러운,
                                 </p>
-                                <p className="korMd">일상 속 특별함 선사</p>
+                                <p className="korSm">일상 속 특별함 선사</p>
                             </div>
                         </div>
                     </div>
