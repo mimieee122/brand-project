@@ -86,12 +86,12 @@ const Home = () => {
                     </div>
                     <div className="  2xl:mb-[32px] mt-[8px]  w-full h-[4px]  bg-[#DEDEDE]"></div>
                     <div className="inline">
-                        <p className="korMd  2xl:mt-[32px]  mt-[8px]      text-[#2C2E35]  font-semibold">
+                        <p className="korMd  2xl:mt-[32px]  mt-[16px]      text-[#2C2E35]  font-semibold">
                             마르모 커피는 프리미엄 드립커피를 누구나 일상에서
                             쉽게 경험할 수 있도록 탄생한, 혁신적인 브랜드입니다
                         </p>
                     </div>
-                    <div className=" 2xl:mt-[32px] mt-[8px]  w-full  h-[4px]  bg-[#DEDEDE]"></div>
+                    <div className=" 2xl:mt-[32px] mt-[16px]  w-full  h-[4px]  bg-[#DEDEDE]"></div>
                 </div>
                 <div className="mt-[40px]  w-full  items  mb-[40px] flex flex-row max-w-full justify-center items-center gap-[12px]  ">
                     <div

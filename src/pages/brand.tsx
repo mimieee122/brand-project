@@ -91,11 +91,11 @@ const Brand = () => {
                             INNOVATION
                         </p>
                     </div>
-                    <div className=" mt-[18px] font-medium px-[20px] py-[4px] rounded-lg bg-[white] shadow-lg flex flex-col items-center justify-center">
-                        <p className="leading-[1] korSm">
+                    <div className=" mt-[18px] font-medium px-[10px]  rounded-lg bg-[white] shadow-lg flex flex-col items-center justify-center">
+                        <p className="leading-[1] korSm pt-4">
                             커피 본연의 맛을 살리는
                         </p>
-                        <p className="leading-[1] korSm mt-[2px]">
+                        <p className="leading-[1] korSm mt-[2px] pb-4">
                             급속 냉각 기술
                         </p>
                     </div>
@@ -118,9 +118,9 @@ const Brand = () => {
                             ACCESSCIBILITY
                         </p>
                     </div>
-                    <div className=" mt-[18px] font-medium  px-[20px] py-[8px] rounded-lg bg-[white] shadow-lg flex flex-col items-center justify-center">
-                        <p className="leading-[1] korSm">언제 어디서나</p>
-                        <p className="leading-[1] korSm mt-[2px]">
+                    <div className=" mt-[18px] font-medium  px-[10px] rounded-lg bg-[white] shadow-lg flex flex-col items-center justify-center">
+                        <p className="leading-[1] korSm pt-4">언제 어디서나</p>
+                        <p className="leading-[1] korSm mt-[2px] pb-4">
                             간편하게 즐기는 드립커피
                         </p>
                     </div>
@@ -143,11 +143,11 @@ const Brand = () => {
                             SUSTAINABILITY
                         </p>
                     </div>
-                    <div className=" mt-[18px] font-medium px-[20px] py-[8px] rounded-lg bg-[white] shadow-lg flex flex-col items-center justify-center">
-                        <p className="leading-[1] korSm">
+                    <div className=" mt-[18px] font-medium px-[10px]  rounded-lg bg-[white] shadow-lg flex flex-col items-center justify-center">
+                        <p className="leading-[1] korSm pt-4">
                             대리석의 영구적 가치를 닮은
                         </p>
-                        <p className="leading-[1] mt-[2px] korSm">
+                        <p className="leading-[1] mt-[2px] korSm pb-4">
                             고급스러운 커피
                         </p>
                     </div>
@@ -190,7 +190,7 @@ const Brand = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex-1 mt-[100px] mb-[120px] max-w-full h-[600px] 2xl:h-[1000px] bg-[#FAFAFA] flex flex-col items-center justify-center">
+            <div className="flex-1 mt-[100px] mb-[120px] min-w-full h-[600px] 2xl:h-[1000px] bg-[#FAFAFA] flex flex-col items-center justify-center">
                 <div className="flex pt-[60px] flex-col  items-center justify-center">
                     <p className="text-[24px] leading-[1] text-[#B0AEA5] font-bold">
                         WHY MARMO
@@ -204,7 +204,7 @@ const Brand = () => {
                         className="flex-1 w-full h-full bg-white rounded-lg flex flex-col items-center justify-center
                     gap-[8px] px-[20px] py-[15px] "
                     >
-                        <div className="flex flex-1 w-full flex-row justify-center gap-[20px] ">
+                        <div className="flex  flex-row justify-center gap-[20px] ">
                             <div className="sm:w-[60px] md:w-[90px] lg:w-[120px] xl:w-[180px] 2xl:w-[200px]">
                                 <Image
                                     src="/assets/images/ice.svg"
@@ -214,17 +214,17 @@ const Brand = () => {
                                     className="object-fill w-full h-full"
                                 ></Image>
                             </div>
-                            <div className="flex flex-col items-start justify-end">
+                            <div className="flex flex-col items-start justify-center">
                                 <p className="korMd font-semibold">
                                     급속 냉각 기술
                                 </p>
                                 <p className="text-[12px] text-[#B0AEA5]">
-                                    (Rapid Cooling Technology)
+                                    (Rapid Cooling Tech)
                                 </p>
                             </div>
                         </div>
                         <div
-                            className="flex-1  w-full   px-[10px] rounded-md bg-[#FAFAFA]
+                            className="flex-1  w-full h-full  px-[10px] rounded-md bg-[#FAFAFA]
                         flex flex-col items-center justify-center"
                         >
                             <p className="korSm leading-[1] pt-2">
@@ -249,12 +249,12 @@ const Brand = () => {
                                     className="object-cover w-full h-full"
                                 ></Image>
                             </div>
-                            <div className="flex flex-col items-start justify-end">
+                            <div className="flex flex-col items-start justify-center">
                                 <p className="korMd font-semibold">
                                     원액 추출 기술
                                 </p>
                                 <p className="text-[12px] text-[#B0AEA5]">
-                                    (High-Intensity Coffee Technology)
+                                    (High-Intensity Coffee)
                                 </p>
                             </div>
                         </div>
@@ -284,12 +284,12 @@ const Brand = () => {
                                     className="object-fill w-full h-full"
                                 ></Image>
                             </div>
-                            <div className="flex flex-col items-start justify-end">
+                            <div className="flex flex-col items-start justify-center">
                                 <p className="korMd font-semibold">
                                     선물용 패키지
                                 </p>
                                 <p className="text-[12px] text-[#B0AEA5]">
-                                    (Premium Gift Package)
+                                    (Premium Gift)
                                 </p>
                             </div>
                         </div>
@@ -344,10 +344,10 @@ const Brand = () => {
                             최상급 원두의 깊은 풍미
                         </p>
                         <div className="flex flex-col font-medium justify-center items-center gap-[-2px]">
-                            <p className="korMd">
+                            <p className="korSm">
                                 특허 출원 추출 기술과 엄선된 원두로
                             </p>
-                            <p className="korMd">풍미를 완벽하게 보존</p>
+                            <p className="korSm">풍미를 완벽하게 보존</p>
                         </div>
                     </div>
                 </div>
@@ -367,8 +367,8 @@ const Brand = () => {
                         </div>
                         <p className=" korLg font-semibold">누구나 손쉽게</p>
                         <div className="flex flex-col font-medium korSm justify-center items-center gap-[-2px]">
-                            <p className="korMd">물만 부으면 완성되는,</p>
-                            <p className="korMd">누구나 쉽게 만드는 드립커피</p>
+                            <p className="korSm">물만 부으면 완성되는,</p>
+                            <p className="korSm">누구나 쉽게 만드는 드립커피</p>
                         </div>
                     </div>
                 </div>
@@ -390,10 +390,10 @@ const Brand = () => {
                             일상의 특별한 순간
                         </p>
                         <div className="flex flex-col font-medium korSm justify-center items-center gap-[-2px]">
-                            <p className="korMd">
+                            <p className="korSm">
                                 대리석처럼 영구적이고 고급스러운,
                             </p>
-                            <p className="korMd">일상 속 특별함 선사</p>
+                            <p className="korSm">일상 속 특별함 선사</p>
                         </div>
                     </div>
                 </div>
