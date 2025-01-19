@@ -12,7 +12,7 @@ const Info = () => {
     //     },
     // }
     return (
-        <>
+        <div className="flex flex-col min-w-full  justify-center items-center container">
             <nav className="flex flex-row justify-between w-full  h-[60px] 2xl:h-[100px]  items-center  ">
                 {/* <Link href={'/'}>
                         <button className="text-[#544C4C] button bar1 text-[35px]">
@@ -20,7 +20,7 @@ const Info = () => {
                         </button>
                     </Link> */}
                 <Link href={'/'}>
-                    <div className="flex  pl-[80px] h-[28px] 2xl:h-[46px] ">
+                    <div className="flex  pl-[80px] md:pl-[40px] sm:pl-[20px] h-[28px] 2xl:h-[46px] ">
                         <Image
                             src="/assets/images/fl.svg"
                             width={78} // 원하는 비율로 width 지정
@@ -31,7 +31,7 @@ const Info = () => {
                     </div>
                 </Link>
 
-                <div className="flex flex-row  text-[#2C2E35] pr-[80px] 2xl:text-[32px] lg:text-[24px] sm:text-[18px] bar2 gap-[80px]">
+                <div className="flex flex-row engSm  text-[#2C2E35] pr-[80px] gap-[80px]">
                     <Link href={'/brand'}>
                         <button className="button">BRAND</button>
                     </Link>
@@ -43,16 +43,17 @@ const Info = () => {
                     </Link>
                 </div>
             </nav>
-            <div className="w-full mb-[120px] h-[731px] 2xl:h-[1000px]">
+            <div className="w-full ">
                 <Image
                     src="/assets/images/last.svg"
                     width={1415} // 원하는 비율로 width 지정
                     height={732} // height도 지정하여 비율을 맞추기
                     alt="로고 사진"
-                    className="object-cover w-full h-full"
+                    layout="responsive"
+                    className="object-cover w-full sm:h-[400px] md:h-[500px] lg:h-[600px]"
                 />
             </div>
-            <div className="flex w-full mb-[140px] flex-row justify-start items-start ">
+            <div className="flex w-full mt-[120px] mb-[140px] flex-row justify-start items-start ">
                 <div className=" h-[500px] ml-[120px]">
                     <Image
                         src="/assets/images/info.svg"
@@ -63,7 +64,7 @@ const Info = () => {
                     />
                 </div>
             </div>
-            <div className=" mr-[80px] ml-[80px] mb-[80px] min-w-[1257px] h-[2px] bg-[#D9D9D9]"></div>
+            <div className="w-full mt-[20px]  mb-[80px]  h-[1px] bg-[#DEDEDE]"></div>{' '}
             <div className="flex flex-col text-[#D9D9D9] items-start  w-full px-[80px]">
                 <p className="text-[14px] mb-[20px]">
                     Ⓒ 2025 SUPERBA. All Rights Reserved.
@@ -145,7 +146,7 @@ const Info = () => {
                     </div>
                 </div>
             </div> */}
-        </>
+        </div>
     )
 }
 

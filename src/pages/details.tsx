@@ -5,14 +5,14 @@ import Image from 'next/image'
 const Details = () => {
     return (
         <>
-            <nav className="flex flex-row justify-between  h-[60px] items-center  ">
+            <nav className="flex flex-row justify-between w-full  h-[60px] 2xl:h-[100px]  items-center  ">
                 {/* <Link href={'/'}>
                         <button className="text-[#544C4C] button bar1 text-[35px]">
                             MÁRMO
                         </button>
                     </Link> */}
                 <Link href={'/'}>
-                    <div className="flex  pl-[80px] h-[28px]">
+                    <div className="flex  pl-[80px] md:pl-[40px] sm:pl-[20px] h-[28px] 2xl:h-[46px] ">
                         <Image
                             src="/assets/images/fl.svg"
                             width={78} // 원하는 비율로 width 지정
@@ -23,9 +23,9 @@ const Details = () => {
                     </div>
                 </Link>
 
-                <div className="flex flex-row  text-[#2C2E35] pr-[80px]  text-[24px] bar2 gap-[80px]">
+                <div className="flex flex-row engSm  text-[#2C2E35] pr-[80px] gap-[80px]">
                     <Link href={'/brand'}>
-                        <button className="button">ABOUT</button>
+                        <button className="button">BRAND</button>
                     </Link>
                     <Link href={'items'}>
                         <button className="button">PRODUCTS</button>

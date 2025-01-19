@@ -84,16 +84,16 @@ const Home = () => {
                             THE BRAND
                         </p>
                     </div>
-                    <div className="  2xl:mb-[32px] mt-[8px] lg:mb-[8px] w-full h-[4px]  bg-[#DEDEDE]"></div>
+                    <div className="  2xl:mb-[32px] mt-[8px]  w-full h-[4px]  bg-[#DEDEDE]"></div>
                     <div className="inline">
-                        <p className="korMd  2xl:mt-[32px]  mt-[8px]   lg:mb-[18px]   text-[#2C2E35]  font-semibold">
+                        <p className="korMd  2xl:mt-[32px]  mt-[8px]      text-[#2C2E35]  font-semibold">
                             마르모 커피는 프리미엄 드립커피를 누구나 일상에서
                             쉽게 경험할 수 있도록 탄생한, 혁신적인 브랜드입니다
                         </p>
                     </div>
                     <div className=" 2xl:mt-[32px] mt-[8px]  w-full  h-[4px]  bg-[#DEDEDE]"></div>
                 </div>
-                <div className="mt-[20px]  w-full  2xl:px-[160px] xl:px-[80px] lg:px-[80px] md:px-[40px] sm:px-[20px]  mb-[40px] flex flex-row max-w-full justify-center items-center gap-[12px]  ">
+                <div className="mt-[40px]  w-full  items  mb-[40px] flex flex-row max-w-full justify-center items-center gap-[12px]  ">
                     <div
                         className="flex-1  w-full h-[255px]  border-b-[3px] border-b-[#2C2E35] items-center justify-center rounded-2xl bg-[#D7D6D2]
                               flex flex-col"
@@ -177,9 +177,9 @@ const Home = () => {
                         </p>
                     </div>
                 </Link>
-                <div className="flex flex-row justify-center mx-[40px]">
+                <div className="flex flex-row justify-center w-full">
                     <div
-                        className=" px-[40px]  mb-[100px] overflow-hidden  rounded-3xl shadow-lg border-b-[#D9D9D9] border-[4px] min-w-[800px] 2xl:h-[380px] xl:h-[280px] lg:h-[240px] md:h-[200px] sm:h-[180px] bg-[#243E45]
+                        className=" w-full max-w-[calc(100%-240px)] mx-auto  mb-[100px] overflow-hidden  rounded-3xl shadow-lg border-b-[#D9D9D9] border-[4px] min-w-[800px] 2xl:h-[380px] xl:h-[280px] lg:h-[240px] md:h-[200px] sm:h-[180px] bg-[#243E45]
                           flex flex-row justify-center items-center"
                     >
                         <div className="lg:h-[232px] md:h-[180px] sm:h-[160px]  mr-[22px]">
@@ -200,7 +200,7 @@ const Home = () => {
                                 className="object-cover w-full h-full"
                             />
                         </div>
-                        <div className=" flex flex-col ml-[20px] text-white items-start justify-center ">
+                        <div className=" flex flex-col pl-[40px] text-white items-start justify-center ">
                             <p className="leading-[1] korLg font-bold  mb-[20px]">
                                 마르모(Marmo)는 이탈리아로 대리석을 뜻합니다.
                             </p>
@@ -434,7 +434,7 @@ const Home = () => {
                         </div>
                     </Link>
                 </div>
-                <div className="flex flex-col items-center justify-center gap-[20px] rounded-2xl min-w-[977px] px-[80px] md:px-[20px] xl:h-[440px] lg:h-[400px] md:h-[360px] sm:h-[320px]  bg-[#EDEDED]">
+                <div className="flex flex-col items-center justify-center gap-[20px] rounded-2xl max-w-full items h-[440px]   bg-[#EDEDED]">
                     <p className="engLg leading-[1] thick font-extrabold">
                         HOW TO USE
                     </p>

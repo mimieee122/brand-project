@@ -38,8 +38,12 @@ body {
 }
 
 .engSm {
-    @apply text-[18px] sm:text-[22px] md:text-[24px] lg:text-[26px] xl:text-[28px];
+    @apply text-[18px] sm:text-[22px] md:text-[24px] lg:text-[26px];
     font-family: 'Roboto Condensed';
+}
+
+.items {
+    @apply 2xl:px-[160px] xl:px-[80px] lg:px-[80px] md:px-[40px] sm:px-[20px];
 }
 
 .engLg {
