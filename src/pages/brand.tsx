@@ -43,14 +43,14 @@ const Brand = () => {
                     </Link>
                 </div>
             </nav>
-            <div className="w-full  ">
+            <div className="w-full flex flex-col items-start justify-start">
                 <Image
                     src="/assets/images/2.svg"
-                    width={882} // 원하는 비율로 width 지정
-                    height={473} // height도 지정하여 비율을 맞추기
+                    width={1937} // 가로 비율
+                    height={1185} // 세로 비율
                     alt="로고 사진"
-                    layout="responsive"
-                    className="object-cover w-full h-full"
+                    layout="responsive" // 반응형 레이아웃 유지
+                    className="w-full object-cover" // 비율 유지하면서 꽉 채움
                 />
             </div>
             <div className=" mt-[120px]   flex flex-col min-w-full container items-center justify-center">
@@ -59,18 +59,18 @@ const Brand = () => {
                 </p>
                 <div className=" w-full max-w-[calc(100%-160px)] mx-auto  h-[4px] bg-[#DEDEDE]"></div>
                 <div className="mt-[30px] mb-[30px] flex flex-col justify-center items-center">
-                    <p className="leading-[1] text-[24px] 2xl:text-[32px]">
+                    <p className="leading-[1] korMd">
                         마르모는 누구나 간편하게 고품질 커피를 즐길 수 있는
                         세상을 꿈꾸며,
                     </p>
-                    <p className="leading-[1] pt-[8px] 2xl:text-[32px] text-[24px]">
+                    <p className="leading-[1] pt-[8px] korMd">
                         세 가지 철학을 실천합니다.
                     </p>
                 </div>
                 <div className=" w-full max-w-[calc(100%-160px)] mx-auto h-[4px] bg-[#DEDEDE]"></div>
             </div>
             <div
-                className="mb-[80px] mt-[80px] w-full max-w-[calc(100%-160px)] mx-auto sm:h-[280px] md:h-[300px] lg:h-[320px] xl:h-[360px] 2xl:h-[400px]
+                className="mb-[100px] mt-[80px] w-full max-w-[calc(100%-160px)] mx-auto sm:h-[280px] md:h-[300px] lg:h-[320px] xl:h-[360px] 2xl:h-[400px]
             flex flex-row justify-center items-center gap-[20px]"
             >
                 <div
@@ -158,25 +158,27 @@ const Brand = () => {
                     className=" w-full max-w-[calc(100%-240px)] mx-auto  mb-[100px] overflow-hidden  rounded-3xl shadow-lg border-b-[#D9D9D9] border-[4px]  2xl:h-[380px] xl:h-[280px] lg:h-[240px] md:h-[200px] sm:h-[180px] bg-[#243E45]
                                   flex flex-row justify-center items-center"
                 >
-                    <div className="lg:h-[232px] md:h-[180px] sm:h-[160px]  mr-[22px]">
+                    <div className=" w-[400px] h-full px-[20px] py-[20px]">
                         <Image
                             src="/assets/images/gree.svg"
                             width={285} // 원하는 비율로 width 지정
                             height={252} // height도 지정하여 비율을 맞추기
                             alt="로고 사진"
-                            className="object-cover w-full h-full"
+                            layout="responsive"
+                            className="object-cover w-full h-full hidden lg:block"
                         />
                     </div>
-                    <div className="flex flex-col items-end mt-[80px] md:mt-[40px] justify-end h-full">
+                    <div className="flex flex-col items-end mb-[0px] justify-end h-full">
                         <Image
                             src="/assets/images/bottle.svg"
                             width={127} // 원하는 비율로 width 지정
                             height={234} // height도 지정하여 비율을 맞추기
                             alt="로고 사진"
-                            className="object-cover w-full h-full"
+                            layout="responsive"
+                            className="object-cover w-full h-full hidden lg:block"
                         />
                     </div>
-                    <div className=" flex flex-col pl-[40px] text-white items-start justify-center ">
+                    <div className=" flex flex-col pl-[40px] pr-[20px] text-white items-start justify-center ">
                         <p className="leading-[1] korLg font-bold  mb-[20px]">
                             마르모(Marmo)는 이탈리아로 대리석을 뜻합니다.
                         </p>
@@ -190,7 +192,7 @@ const Brand = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex-1 mt-[100px] mb-[120px] min-w-full h-[600px] 2xl:h-[1000px] bg-[#FAFAFA] flex flex-col items-center justify-center">
+            <div className="flex-1  mb-[120px] min-w-full h-[600px] 2xl:h-[1000px] bg-[#FAFAFA] flex flex-col items-center justify-center">
                 <div className="flex pt-[60px] flex-col  items-center justify-center">
                     <p className="text-[24px] leading-[1] text-[#B0AEA5] font-bold">
                         WHY MARMO
@@ -325,7 +327,7 @@ const Brand = () => {
                     className="object-cover w-full h-full"
                 ></Image>
             </div>
-            <div className="mt-[40px]  w-full  items  mb-[40px] flex flex-row max-w-full justify-center items-center gap-[12px]  ">
+            <div className=" w-full  items  mb-[40px] flex flex-row max-w-full justify-center items-center gap-[12px]  ">
                 <div
                     className="flex-1  w-full h-[255px]  border-b-[3px] border-b-[#2C2E35] items-center justify-center rounded-2xl bg-[#D7D6D2]
                                          flex flex-col"

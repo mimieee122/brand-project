@@ -38,7 +38,7 @@ body {
 }
 
 .engSm {
-    @apply text-[18px] sm:text-[22px] md:text-[24px] lg:text-[26px];
+    @apply text-[18px] sm:text-[22px] md:text-[24px] lg:text-[26px] xl:text-[28px] 2xl:text-[34px];
     font-family: 'Roboto Condensed';
 }
 
@@ -52,11 +52,11 @@ body {
 }
 
 .korSm {
-    @apply text-[9px] sm:text-[12px] md:text-[15px] lg:text-[18px] whitespace-nowrap;
+    @apply text-[9px] sm:text-[12px] md:text-[15px] lg:text-[18px] xl:text-[22px] whitespace-nowrap;
 }
 
 .korMd {
-    @apply text-[12px] sm:text-[14px] md:text-[18px] lg:text-[22px] whitespace-nowrap;
+    @apply text-[12px] sm:text-[14px] md:text-[18px] lg:text-[22px] xl:text-[24px] 2xl:text-[28px] whitespace-nowrap;
 }
 
 .korLg {

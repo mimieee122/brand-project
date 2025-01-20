@@ -50,7 +50,7 @@ const Info = () => {
                     height={732} // height도 지정하여 비율을 맞추기
                     alt="로고 사진"
                     layout="responsive"
-                    className="object-cover w-full sm:h-[400px] md:h-[500px] lg:h-[600px]"
+                    className="object-cover w-full "
                 />
             </div>
             <div className="flex w-full mt-[120px] mb-[140px] flex-row justify-start items-start ">
